@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sheetforge.dev/sitemap.xml

@@ -62,74 +62,2192 @@
       "description": "Business & office tools",
       "accent": "#4ade80",
       "icon": "briefcase"
+    },
+    {
+      "id": "Social Media",
+      "label": "Social Media",
+      "description": "Platforms, scheduling & strategy",
+      "accent": "#f78166",
+      "icon": "share"
+    },
+    {
+      "id": "Streaming",
+      "label": "Streaming",
+      "description": "OBS, alerts, overlays & multistream",
+      "accent": "#a78bfa",
+      "icon": "radio"
+    },
+    {
+      "id": "VTubing",
+      "label": "VTubing",
+      "description": "Avatar software, PNGtubing & rigging",
+      "accent": "#ff7eb6",
+      "icon": "user"
+    },
+    {
+      "id": "Video Editing",
+      "label": "Video Editing",
+      "description": "Editing, effects & export",
+      "accent": "#58a6ff",
+      "icon": "film"
+    },
+    {
+      "id": "Audio",
+      "label": "Audio",
+      "description": "DAWs, recording & podcasting",
+      "accent": "#39d353",
+      "icon": "music"
+    },
+    {
+      "id": "3D & Animation",
+      "label": "3D & Animation",
+      "description": "Modeling, rigging & motion graphics",
+      "accent": "#ffa657",
+      "icon": "box"
+    },
+    {
+      "id": "Design",
+      "label": "Design",
+      "description": "UI/UX, vector & print design",
+      "accent": "#d2a8ff",
+      "icon": "pen-tool"
+    },
+    {
+      "id": "Web Development",
+      "label": "Web Development",
+      "description": "Frameworks, CSS & APIs",
+      "accent": "#79c0ff",
+      "icon": "globe"
+    },
+    {
+      "id": "Programming",
+      "label": "Programming",
+      "description": "Systems & application languages",
+      "accent": "#e3b341",
+      "icon": "terminal"
+    },
+    {
+      "id": "Cloud & DevOps",
+      "label": "Cloud & DevOps",
+      "description": "AWS, GCP, Azure, K8s & IaC",
+      "accent": "#3fb950",
+      "icon": "cloud"
+    },
+    {
+      "id": "Data & Analytics",
+      "label": "Data & Analytics",
+      "description": "BI tools, SQL & data science",
+      "accent": "#58a6ff",
+      "icon": "bar-chart"
+    },
+    {
+      "id": "Game Development",
+      "label": "Game Development",
+      "description": "Unity, Pygame, Defold & more",
+      "accent": "#818cf8",
+      "icon": "gamepad"
+    },
+    {
+      "id": "Ecommerce",
+      "label": "Ecommerce",
+      "description": "Shopify, WooCommerce & payments",
+      "accent": "#ffa657",
+      "icon": "shopping-cart"
+    },
+    {
+      "id": "Writing & Docs",
+      "label": "Writing & Docs",
+      "description": "Markdown, Scrivener & Confluence",
+      "accent": "#f778ba",
+      "icon": "book"
     }
   ],
   "sheets": [
-    { "slug": "ollama", "title": "Ollama", "category": "local-ai", "description": "CLI commands, REST API, Modelfile syntax, Python integration, popular model reference", "file": "cheatsheet_ollama.pdf", "tags": ["local","llm","api","python"] },
-    { "slug": "lm-studio", "title": "LM Studio", "category": "local-ai", "description": "GGUF quantization guide, model loading, local OpenAI-compatible server, troubleshooting", "file": "cheatsheet_lm_studio.pdf", "tags": ["local","gguf","gui","server"] },
-    { "slug": "llama-cpp", "title": "llama.cpp", "category": "local-ai", "description": "Build flags, CLI options, server mode, Python bindings, GPU offload, performance tuning", "file": "cheatsheet_llama_cpp.pdf", "tags": ["local","cpp","gpu","quantization"] },
-    { "slug": "open-webui", "title": "Open WebUI", "category": "local-ai", "description": "Docker install, RAG setup, user management, pipelines, keyboard shortcuts", "file": "cheatsheet_open_webui.pdf", "tags": ["local","docker","rag","ui"] },
-    { "slug": "jan-ai", "title": "Jan.ai", "category": "local-ai", "description": "Desktop app setup, model settings, local API server, extensions", "file": "cheatsheet_jan_ai.pdf", "tags": ["local","desktop","api"] },
-    { "slug": "anythingllm", "title": "AnythingLLM", "category": "local-ai", "description": "RAG with local documents, workspace setup, agent mode, API access, multi-user", "file": "cheatsheet_anythingllm.pdf", "tags": ["local","rag","documents","agent"] },
-    { "slug": "claude-api", "title": "Anthropic Claude API", "category": "ai-apis", "description": "Messages API, streaming, vision, tool use, batch processing, model reference", "file": "cheatsheet_claude_api.pdf", "tags": ["claude","anthropic","api","streaming"] },
-    { "slug": "openai-api", "title": "OpenAI API", "category": "ai-apis", "description": "GPT-4o, function calling, vision, DALL-E, Whisper, TTS, embeddings", "file": "cheatsheet_openai_api.pdf", "tags": ["openai","gpt","api","dalle"] },
-    { "slug": "gemini-api", "title": "Google Gemini API", "category": "ai-apis", "description": "Gemini models, 1M context, multimodal, AI Studio vs Vertex AI, streaming", "file": "cheatsheet_gemini_api.pdf", "tags": ["google","gemini","api","multimodal"] },
-    { "slug": "mistral-api", "title": "Mistral API", "category": "ai-apis", "description": "Model reference, Python client, function calling, embeddings, Codestral", "file": "cheatsheet_mistral_api.pdf", "tags": ["mistral","api","european","embeddings"] },
-    { "slug": "groq-api", "title": "Groq API", "category": "ai-apis", "description": "Ultra-fast LPU inference, model speeds, streaming, Whisper transcription", "file": "cheatsheet_groq_api.pdf", "tags": ["groq","fast","llm","whisper"] },
-    { "slug": "huggingface", "title": "Hugging Face Hub", "category": "ai-apis", "description": "Hub API, Inference API, pipelines, model upload/download, Spaces", "file": "cheatsheet_huggingface.pdf", "tags": ["huggingface","hub","inference","transformers"] },
-    { "slug": "replicate", "title": "Replicate API", "category": "ai-apis", "description": "Image/video/audio models, Flux, SDXL, async predictions, LoRA training", "file": "cheatsheet_replicate.pdf", "tags": ["replicate","image","flux","lora"] },
-    { "slug": "google-colab", "title": "Google Colab", "category": "ai-frameworks", "description": "Shortcuts, GPU runtime, Drive mounting, magic commands, secrets, training patterns", "file": "cheatsheet_google_colab.pdf", "tags": ["colab","notebook","gpu","google"] },
-    { "slug": "langchain", "title": "LangChain / LangGraph", "category": "ai-frameworks", "description": "Chains, RAG pipeline, agents, tools, memory, LangGraph state machines", "file": "cheatsheet_langchain.pdf", "tags": ["langchain","rag","agents","llm"] },
-    { "slug": "prompt-engineering", "title": "Prompt Engineering", "category": "ai-frameworks", "description": "Zero-shot, few-shot, CoT, ReAct, structured output, model-specific tips, anti-patterns", "file": "cheatsheet_prompt_engineering.pdf", "tags": ["prompting","cot","fewshot","llm"] },
-    { "slug": "weights-biases", "title": "Weights & Biases", "category": "ai-frameworks", "description": "Experiment tracking, sweeps, artifacts, model registry, training loop integration", "file": "cheatsheet_weights_biases.pdf", "tags": ["wandb","tracking","sweeps","ml"] },
-    { "slug": "jupyter", "title": "Jupyter Notebooks", "category": "ai-frameworks", "description": "JupyterLab setup, shortcuts, magic commands, extensions, kernel management", "file": "cheatsheet_jupyter.pdf", "tags": ["jupyter","notebook","python","data"] },
-    { "slug": "comfyui-stable-diffusion", "title": "ComfyUI / Stable Diffusion", "category": "ai-frameworks", "description": "Node graph workflow, samplers, LoRA, ControlNet, prompt guide, model types", "file": "cheatsheet_comfyui_stable_diffusion.pdf", "tags": ["comfyui","stablediffusion","image","lora"] },
-    { "slug": "docker", "title": "Docker", "category": "ai-frameworks", "description": "Core concepts, run commands, Dockerfile, Docker Compose, GPU support, deployment", "file": "cheatsheet_docker.pdf", "tags": ["docker","containers","devops","deploy"] },
-    { "slug": "numpy-pandas", "title": "NumPy + Pandas", "category": "ml-libraries", "description": "Arrays, indexing, DataFrames, filtering, aggregation, merging, data cleaning", "file": "cheatsheet_numpy_pandas.pdf", "tags": ["numpy","pandas","data","python"] },
-    { "slug": "pytorch", "title": "PyTorch", "category": "ml-libraries", "description": "Tensors, nn.Module, training loop, DataLoader, save/load, TorchScript export", "file": "cheatsheet_pytorch.pdf", "tags": ["pytorch","deep-learning","neural-networks","python"] },
-    { "slug": "transformers", "title": "HuggingFace Transformers", "category": "ml-libraries", "description": "Pipeline API, AutoModel, fine-tuning with Trainer, 4-bit quantization, LoRA/PEFT", "file": "cheatsheet_transformers.pdf", "tags": ["transformers","huggingface","finetune","llm"] },
-    { "slug": "matplotlib-seaborn", "title": "Matplotlib + Seaborn", "category": "ml-libraries", "description": "Plot types, training curves, confusion matrix, ROC, Seaborn statistical plots, styling", "file": "cheatsheet_matplotlib_seaborn.pdf", "tags": ["matplotlib","seaborn","visualization","python"] },
-    { "slug": "opencv", "title": "OpenCV (cv2)", "category": "ml-libraries", "description": "Image I/O, color spaces, transforms, drawing, video capture, contour detection", "file": "cheatsheet_opencv.pdf", "tags": ["opencv","vision","cv2","python"] },
-    { "slug": "sklearn", "title": "scikit-learn", "category": "ml-libraries", "description": "Train/test split, models, metrics, pipelines, cross-validation, feature engineering", "file": "cheatsheet_sklearn.pdf", "tags": ["sklearn","ml","classification","regression"] },
-    { "slug": "procreate", "title": "Procreate", "category": "creative-tools", "description": "Gestures, layers, Apple Pencil pressure, brushes, export settings", "file": "cheatsheet_procreate.pdf", "tags": ["procreate","ipad","digital-art","illustration"] },
-    { "slug": "adobe-fresco", "title": "Adobe Fresco", "category": "creative-tools", "description": "Live brushes, pixel/vector layers, gestures, desktop shortcuts, export workflow", "file": "cheatsheet_fresco.pdf", "tags": ["fresco","adobe","digital-art","brushes"] },
-    { "slug": "photoshop", "title": "Adobe Photoshop", "category": "creative-tools", "description": "Tools, selections, layers, blend modes, shortcuts, export for web and print", "file": "cheatsheet_photoshop.pdf", "tags": ["photoshop","adobe","photo","design"] },
-    { "slug": "aseprite", "title": "Aseprite", "category": "creative-tools", "description": "Pixel art tools, palette management, frame animation, layers, export sprite sheets", "file": "cheatsheet_aseprite.pdf", "tags": ["aseprite","pixel-art","animation","sprites"] },
-    { "slug": "blender", "title": "Blender", "category": "creative-tools", "description": "Viewport navigation, object/edit mode, sculpting, materials, render settings", "file": "cheatsheet_blender.pdf", "tags": ["blender","3d","modeling","render"] },
-    { "slug": "davinci-resolve", "title": "DaVinci Resolve", "category": "creative-tools", "description": "Cut/Edit page, Color page nodes, Fusion, Fairlight, delivery export", "file": "cheatsheet_davinci_resolve.pdf", "tags": ["davinci","video","color-grading","editing"] },
-    { "slug": "inkscape", "title": "Inkscape", "category": "creative-tools", "description": "Vector tools, path operations, node editing, export for print/web, sticker workflow", "file": "cheatsheet_inkscape.pdf", "tags": ["inkscape","vector","svg","design"] },
-    { "slug": "krita", "title": "Krita", "category": "creative-tools", "description": "Brushes, layers/masks, selection, filters, pixel art setup, sketch-to-color workflow", "file": "cheatsheet_krita.pdf", "tags": ["krita","painting","digital-art","open-source"] },
-    { "slug": "canva", "title": "Canva", "category": "creative-tools", "description": "Shortcuts, brand kit, template sizing, background removal, export settings", "file": "cheatsheet_canva.pdf", "tags": ["canva","design","social-media","templates"] },
-    { "slug": "godot-4", "title": "Godot 4", "category": "game-dev", "description": "GDScript reference, editor navigation, scene tree, signals, 2D/3D viewport", "file": "cheatsheet_godot4.pdf", "tags": ["godot","gdscript","2d","3d"] },
-    { "slug": "gamemaker-studio-2", "title": "GameMaker Studio 2", "category": "game-dev", "description": "GML reference, room editor, object events, IDE shortcuts, draw/step pattern", "file": "cheatsheet_gamemaker_studio2.pdf", "tags": ["gamemaker","gml","2d","game"] },
-    { "slug": "unreal-engine-5", "title": "Unreal Engine 5", "category": "game-dev", "description": "Viewport controls, Blueprint editor, C++ Actor pattern, spawn/delegates", "file": "cheatsheet_unreal_engine5.pdf", "tags": ["unreal","blueprint","cpp","3d"] },
-    { "slug": "rpgmaker-mv", "title": "RPG Maker MV", "category": "game-dev", "description": "Editor, database, event commands, JavaScript plugin template, script calls", "file": "cheatsheet_rpgmaker_mv.pdf", "tags": ["rpgmaker","javascript","rpg","events"] },
-    { "slug": "rpgmaker-vxace", "title": "RPG Maker VX Ace", "category": "game-dev", "description": "RGSS3 Ruby scripting, custom Scene class, alias pattern, event commands", "file": "cheatsheet_rpgmaker_vxace.pdf", "tags": ["rpgmaker","ruby","rgss3","rpg"] },
-    { "slug": "fmod-studio", "title": "FMOD Studio", "category": "game-dev", "description": "Event architecture, parameters, banks/build, Godot 4 and Unreal 5 integration", "file": "cheatsheet_fmod.pdf", "tags": ["fmod","audio","sound","game"] },
-    { "slug": "tiled", "title": "Tiled Map Editor", "category": "game-dev", "description": "Layer types, tileset setup, objects, properties, export for Godot/GMS2/RPG Maker", "file": "cheatsheet_tiled.pdf", "tags": ["tiled","tilemap","2d","game"] },
-    { "slug": "twine-harlowe", "title": "Twine / Harlowe", "category": "game-dev", "description": "Links, variables, conditionals, macros, timing, RPG stat system example", "file": "cheatsheet_twine_harlowe.pdf", "tags": ["twine","harlowe","interactive-fiction","narrative"] },
-    { "slug": "vscode", "title": "VS Code", "category": "dev-tools", "description": "Essential shortcuts, multi-cursor, debugging, settings.json, must-have extensions", "file": "cheatsheet_vscode.pdf", "tags": ["vscode","editor","shortcuts","debugging"] },
-    { "slug": "vscode-ai-extensions", "title": "VS Code AI Extensions", "category": "dev-tools", "description": "GitHub Copilot, Continue.dev, Cline agent, Cursor tips, AI coding best practices", "file": "cheatsheet_vscode_ai_extensions.pdf", "tags": ["vscode","copilot","ai","coding"] },
-    { "slug": "github-actions", "title": "GitHub + Actions", "category": "dev-tools", "description": "PR workflow, site shortcuts, CI/CD YAML, secrets, matrix builds, Pages deploy", "file": "cheatsheet_github_actions.pdf", "tags": ["github","actions","cicd","git"] },
-    { "slug": "git", "title": "Git", "category": "dev-tools", "description": "Staging, branching, remote sync, history, stash, rebase, tags, git flow", "file": "cheatsheet_git.pdf", "tags": ["git","version-control","branch","merge"] },
-    { "slug": "pip-venv-conda", "title": "pip + venv + conda", "category": "dev-tools", "description": "Virtual environments, package management, requirements.txt, conda envs", "file": "cheatsheet_pip_venv_conda.pdf", "tags": ["pip","venv","conda","python"] },
-    { "slug": "docker-dev", "title": "Docker", "category": "dev-tools", "description": "Images, containers, Dockerfile, Compose, GPU support, useful commands", "file": "cheatsheet_docker.pdf", "tags": ["docker","containers","devops"] },
-    { "slug": "bash-linux", "title": "Bash / Linux CLI", "category": "dev-tools", "description": "Navigation, text processing, scripting, loops, functions, pipes, permissions", "file": "cheatsheet_bash_linux.pdf", "tags": ["bash","linux","cli","shell"] },
-    { "slug": "powershell", "title": "PowerShell", "category": "dev-tools", "description": "Navigation, variables, arrays, pipeline, files, error handling, remoting", "file": "cheatsheet_powershell.pdf", "tags": ["powershell","windows","scripting","cli"] },
-    { "slug": "python", "title": "Python", "category": "languages", "description": "Variables, data structures, OOP, comprehensions, decorators, generators, builtins", "file": "cheatsheet_python.pdf", "tags": ["python","scripting","oop","functional"] },
-    { "slug": "java", "title": "Java", "category": "languages", "description": "Java 17+, OOP, collections, Streams API, lambdas, records, sealed classes", "file": "cheatsheet_java.pdf", "tags": ["java","oop","streams","jvm"] },
-    { "slug": "javascript-typescript", "title": "JavaScript + TypeScript", "category": "languages", "description": "ES6+, array methods, async/await, fetch, TS types, DOM, Shopify JS patterns", "file": "cheatsheet_javascript_typescript.pdf", "tags": ["javascript","typescript","es6","async"] },
-    { "slug": "html-css", "title": "HTML + CSS", "category": "languages", "description": "Semantic HTML, Flexbox, Grid, custom properties, selectors, Shopify-specific CSS", "file": "cheatsheet_html_css.pdf", "tags": ["html","css","flexbox","grid"] },
-    { "slug": "sql", "title": "SQL", "category": "languages", "description": "SELECT, JOINs, aggregation, window functions, DDL/DML, Python SQLite, PostgreSQL", "file": "cheatsheet_sql.pdf", "tags": ["sql","database","postgres","sqlite"] },
-    { "slug": "regex", "title": "Regular Expressions", "category": "languages", "description": "Character classes, anchors, quantifiers, groups, flags, Python/JS/Java usage", "file": "cheatsheet_regex.pdf", "tags": ["regex","pattern","matching","text"] },
-    { "slug": "json-yaml", "title": "JSON + YAML", "category": "languages", "description": "Syntax, types, Python/JS usage, YAML anchors, Shopify schema, JSON Schema", "file": "cheatsheet_json_yaml.pdf", "tags": ["json","yaml","config","data"] },
-    { "slug": "shopify-liquid", "title": "Shopify Liquid", "category": "languages", "description": "Syntax, control flow, key objects, filters, schema settings, section rendering", "file": "cheatsheet_shopify_liquid.pdf", "tags": ["shopify","liquid","ecommerce","theme"] },
-    { "slug": "excel", "title": "Microsoft Excel", "category": "productivity", "description": "Formulas, pivot tables, XLOOKUP, dynamic arrays, charts, data tools", "file": "cheatsheet_excel.pdf", "tags": ["excel","spreadsheet","formulas","data"] },
-    { "slug": "google-docs", "title": "Google Docs", "category": "productivity", "description": "Shortcuts, styles, collaboration, suggesting mode, version history, add-ons", "file": "cheatsheet_google_docs.pdf", "tags": ["google","docs","writing","collaboration"] },
-    { "slug": "google-sheets", "title": "Google Sheets", "category": "productivity", "description": "ARRAYFORMULA, QUERY, IMPORTRANGE, Apps Script automation, unique formulas", "file": "cheatsheet_google_sheets.pdf", "tags": ["google","sheets","spreadsheet","formulas"] },
-    { "slug": "quickbooks", "title": "QuickBooks Online", "category": "productivity", "description": "Invoices, expenses, bank reconciliation, key reports, products, sales tax", "file": "cheatsheet_quickbooks.pdf", "tags": ["quickbooks","accounting","invoices","business"] },
-    { "slug": "notion", "title": "Notion", "category": "productivity", "description": "Blocks, databases, relations, rollups, formulas, shortcuts, AI features", "file": "cheatsheet_notion.pdf", "tags": ["notion","pkm","database","productivity"] },
-    { "slug": "obsidian", "title": "Obsidian", "category": "productivity", "description": "Linking, tags, graph view, Dataview plugin, shortcuts, daily notes workflow", "file": "cheatsheet_obsidian.pdf", "tags": ["obsidian","pkm","markdown","notes"] },
-    { "slug": "trello-kanban", "title": "Trello / Kanban", "category": "productivity", "description": "Shortcuts, workflow patterns, label systems, Power-Ups, team organization", "file": "cheatsheet_trello_kanban.pdf", "tags": ["trello","kanban","project-management","workflow"] },new_sheets_entries.json
+    {
+      "slug": "ollama",
+      "title": "Ollama",
+      "category": "local-ai",
+      "description": "CLI commands, REST API, Modelfile syntax, Python integration, popular model reference",
+      "file": "cheatsheet_ollama.pdf",
+      "tags": [
+        "local",
+        "llm",
+        "api",
+        "python"
+      ]
+    },
+    {
+      "slug": "lm-studio",
+      "title": "LM Studio",
+      "category": "local-ai",
+      "description": "GGUF quantization guide, model loading, local OpenAI-compatible server, troubleshooting",
+      "file": "cheatsheet_lm_studio.pdf",
+      "tags": [
+        "local",
+        "gguf",
+        "gui",
+        "server"
+      ]
+    },
+    {
+      "slug": "llama-cpp",
+      "title": "llama.cpp",
+      "category": "local-ai",
+      "description": "Build flags, CLI options, server mode, Python bindings, GPU offload, performance tuning",
+      "file": "cheatsheet_llama_cpp.pdf",
+      "tags": [
+        "local",
+        "cpp",
+        "gpu",
+        "quantization"
+      ]
+    },
+    {
+      "slug": "open-webui",
+      "title": "Open WebUI",
+      "category": "local-ai",
+      "description": "Docker install, RAG setup, user management, pipelines, keyboard shortcuts",
+      "file": "cheatsheet_open_webui.pdf",
+      "tags": [
+        "local",
+        "docker",
+        "rag",
+        "ui"
+      ]
+    },
+    {
+      "slug": "jan-ai",
+      "title": "Jan.ai",
+      "category": "local-ai",
+      "description": "Desktop app setup, model settings, local API server, extensions",
+      "file": "cheatsheet_jan_ai.pdf",
+      "tags": [
+        "local",
+        "desktop",
+        "api"
+      ]
+    },
+    {
+      "slug": "anythingllm",
+      "title": "AnythingLLM",
+      "category": "local-ai",
+      "description": "RAG with local documents, workspace setup, agent mode, API access, multi-user",
+      "file": "cheatsheet_anythingllm.pdf",
+      "tags": [
+        "local",
+        "rag",
+        "documents",
+        "agent"
+      ]
+    },
+    {
+      "slug": "claude-api",
+      "title": "Anthropic Claude API",
+      "category": "ai-apis",
+      "description": "Messages API, streaming, vision, tool use, batch processing, model reference",
+      "file": "cheatsheet_claude_api.pdf",
+      "tags": [
+        "claude",
+        "anthropic",
+        "api",
+        "streaming"
+      ]
+    },
+    {
+      "slug": "openai-api",
+      "title": "OpenAI API",
+      "category": "ai-apis",
+      "description": "GPT-4o, function calling, vision, DALL-E, Whisper, TTS, embeddings",
+      "file": "cheatsheet_openai_api.pdf",
+      "tags": [
+        "openai",
+        "gpt",
+        "api",
+        "dalle"
+      ]
+    },
+    {
+      "slug": "gemini-api",
+      "title": "Google Gemini API",
+      "category": "ai-apis",
+      "description": "Gemini models, 1M context, multimodal, AI Studio vs Vertex AI, streaming",
+      "file": "cheatsheet_gemini_api.pdf",
+      "tags": [
+        "google",
+        "gemini",
+        "api",
+        "multimodal"
+      ]
+    },
+    {
+      "slug": "mistral-api",
+      "title": "Mistral API",
+      "category": "ai-apis",
+      "description": "Model reference, Python client, function calling, embeddings, Codestral",
+      "file": "cheatsheet_mistral_api.pdf",
+      "tags": [
+        "mistral",
+        "api",
+        "european",
+        "embeddings"
+      ]
+    },
+    {
+      "slug": "groq-api",
+      "title": "Groq API",
+      "category": "ai-apis",
+      "description": "Ultra-fast LPU inference, model speeds, streaming, Whisper transcription",
+      "file": "cheatsheet_groq_api.pdf",
+      "tags": [
+        "groq",
+        "fast",
+        "llm",
+        "whisper"
+      ]
+    },
+    {
+      "slug": "huggingface",
+      "title": "Hugging Face Hub",
+      "category": "ai-apis",
+      "description": "Hub API, Inference API, pipelines, model upload/download, Spaces",
+      "file": "cheatsheet_huggingface.pdf",
+      "tags": [
+        "huggingface",
+        "hub",
+        "inference",
+        "transformers"
+      ]
+    },
+    {
+      "slug": "replicate",
+      "title": "Replicate API",
+      "category": "ai-apis",
+      "description": "Image/video/audio models, Flux, SDXL, async predictions, LoRA training",
+      "file": "cheatsheet_replicate.pdf",
+      "tags": [
+        "replicate",
+        "image",
+        "flux",
+        "lora"
+      ]
+    },
+    {
+      "slug": "google-colab",
+      "title": "Google Colab",
+      "category": "ai-frameworks",
+      "description": "Shortcuts, GPU runtime, Drive mounting, magic commands, secrets, training patterns",
+      "file": "cheatsheet_google_colab.pdf",
+      "tags": [
+        "colab",
+        "notebook",
+        "gpu",
+        "google"
+      ]
+    },
+    {
+      "slug": "langchain",
+      "title": "LangChain / LangGraph",
+      "category": "ai-frameworks",
+      "description": "Chains, RAG pipeline, agents, tools, memory, LangGraph state machines",
+      "file": "cheatsheet_langchain.pdf",
+      "tags": [
+        "langchain",
+        "rag",
+        "agents",
+        "llm"
+      ]
+    },
+    {
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering",
+      "category": "ai-frameworks",
+      "description": "Zero-shot, few-shot, CoT, ReAct, structured output, model-specific tips, anti-patterns",
+      "file": "cheatsheet_prompt_engineering.pdf",
+      "tags": [
+        "prompting",
+        "cot",
+        "fewshot",
+        "llm"
+      ]
+    },
+    {
+      "slug": "weights-biases",
+      "title": "Weights & Biases",
+      "category": "ai-frameworks",
+      "description": "Experiment tracking, sweeps, artifacts, model registry, training loop integration",
+      "file": "cheatsheet_weights_biases.pdf",
+      "tags": [
+        "wandb",
+        "tracking",
+        "sweeps",
+        "ml"
+      ]
+    },
+    {
+      "slug": "jupyter",
+      "title": "Jupyter Notebooks",
+      "category": "ai-frameworks",
+      "description": "JupyterLab setup, shortcuts, magic commands, extensions, kernel management",
+      "file": "cheatsheet_jupyter.pdf",
+      "tags": [
+        "jupyter",
+        "notebook",
+        "python",
+        "data"
+      ]
+    },
+    {
+      "slug": "comfyui-stable-diffusion",
+      "title": "ComfyUI / Stable Diffusion",
+      "category": "ai-frameworks",
+      "description": "Node graph workflow, samplers, LoRA, ControlNet, prompt guide, model types",
+      "file": "cheatsheet_comfyui_stable_diffusion.pdf",
+      "tags": [
+        "comfyui",
+        "stablediffusion",
+        "image",
+        "lora"
+      ]
+    },
+    {
+      "slug": "docker",
+      "title": "Docker",
+      "category": "ai-frameworks",
+      "description": "Core concepts, run commands, Dockerfile, Docker Compose, GPU support, deployment",
+      "file": "cheatsheet_docker.pdf",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "deploy"
+      ]
+    },
+    {
+      "slug": "numpy-pandas",
+      "title": "NumPy + Pandas",
+      "category": "ml-libraries",
+      "description": "Arrays, indexing, DataFrames, filtering, aggregation, merging, data cleaning",
+      "file": "cheatsheet_numpy_pandas.pdf",
+      "tags": [
+        "numpy",
+        "pandas",
+        "data",
+        "python"
+      ]
+    },
+    {
+      "slug": "pytorch",
+      "title": "PyTorch",
+      "category": "ml-libraries",
+      "description": "Tensors, nn.Module, training loop, DataLoader, save/load, TorchScript export",
+      "file": "cheatsheet_pytorch.pdf",
+      "tags": [
+        "pytorch",
+        "deep-learning",
+        "neural-networks",
+        "python"
+      ]
+    },
+    {
+      "slug": "transformers",
+      "title": "HuggingFace Transformers",
+      "category": "ml-libraries",
+      "description": "Pipeline API, AutoModel, fine-tuning with Trainer, 4-bit quantization, LoRA/PEFT",
+      "file": "cheatsheet_transformers.pdf",
+      "tags": [
+        "transformers",
+        "huggingface",
+        "finetune",
+        "llm"
+      ]
+    },
+    {
+      "slug": "matplotlib-seaborn",
+      "title": "Matplotlib + Seaborn",
+      "category": "ml-libraries",
+      "description": "Plot types, training curves, confusion matrix, ROC, Seaborn statistical plots, styling",
+      "file": "cheatsheet_matplotlib_seaborn.pdf",
+      "tags": [
+        "matplotlib",
+        "seaborn",
+        "visualization",
+        "python"
+      ]
+    },
+    {
+      "slug": "opencv",
+      "title": "OpenCV (cv2)",
+      "category": "ml-libraries",
+      "description": "Image I/O, color spaces, transforms, drawing, video capture, contour detection",
+      "file": "cheatsheet_opencv.pdf",
+      "tags": [
+        "opencv",
+        "vision",
+        "cv2",
+        "python"
+      ]
+    },
+    {
+      "slug": "sklearn",
+      "title": "scikit-learn",
+      "category": "ml-libraries",
+      "description": "Train/test split, models, metrics, pipelines, cross-validation, feature engineering",
+      "file": "cheatsheet_sklearn.pdf",
+      "tags": [
+        "sklearn",
+        "ml",
+        "classification",
+        "regression"
+      ]
+    },
+    {
+      "slug": "procreate",
+      "title": "Procreate",
+      "category": "creative-tools",
+      "description": "Gestures, layers, Apple Pencil pressure, brushes, export settings",
+      "file": "cheatsheet_procreate.pdf",
+      "tags": [
+        "procreate",
+        "ipad",
+        "digital-art",
+        "illustration"
+      ]
+    },
+    {
+      "slug": "adobe-fresco",
+      "title": "Adobe Fresco",
+      "category": "creative-tools",
+      "description": "Live brushes, pixel/vector layers, gestures, desktop shortcuts, export workflow",
+      "file": "cheatsheet_fresco.pdf",
+      "tags": [
+        "fresco",
+        "adobe",
+        "digital-art",
+        "brushes"
+      ]
+    },
+    {
+      "slug": "photoshop",
+      "title": "Adobe Photoshop",
+      "category": "creative-tools",
+      "description": "Tools, selections, layers, blend modes, shortcuts, export for web and print",
+      "file": "cheatsheet_photoshop.pdf",
+      "tags": [
+        "photoshop",
+        "adobe",
+        "photo",
+        "design"
+      ]
+    },
+    {
+      "slug": "aseprite",
+      "title": "Aseprite",
+      "category": "creative-tools",
+      "description": "Pixel art tools, palette management, frame animation, layers, export sprite sheets",
+      "file": "cheatsheet_aseprite.pdf",
+      "tags": [
+        "aseprite",
+        "pixel-art",
+        "animation",
+        "sprites"
+      ]
+    },
+    {
+      "slug": "blender",
+      "title": "Blender",
+      "category": "creative-tools",
+      "description": "Viewport navigation, object/edit mode, sculpting, materials, render settings",
+      "file": "cheatsheet_blender.pdf",
+      "tags": [
+        "blender",
+        "3d",
+        "modeling",
+        "render"
+      ]
+    },
+    {
+      "slug": "davinci-resolve",
+      "title": "DaVinci Resolve",
+      "category": "creative-tools",
+      "description": "Cut/Edit page, Color page nodes, Fusion, Fairlight, delivery export",
+      "file": "cheatsheet_davinci_resolve.pdf",
+      "tags": [
+        "davinci",
+        "video",
+        "color-grading",
+        "editing"
+      ]
+    },
+    {
+      "slug": "inkscape",
+      "title": "Inkscape",
+      "category": "creative-tools",
+      "description": "Vector tools, path operations, node editing, export for print/web, sticker workflow",
+      "file": "cheatsheet_inkscape.pdf",
+      "tags": [
+        "inkscape",
+        "vector",
+        "svg",
+        "design"
+      ]
+    },
+    {
+      "slug": "krita",
+      "title": "Krita",
+      "category": "creative-tools",
+      "description": "Brushes, layers/masks, selection, filters, pixel art setup, sketch-to-color workflow",
+      "file": "cheatsheet_krita.pdf",
+      "tags": [
+        "krita",
+        "painting",
+        "digital-art",
+        "open-source"
+      ]
+    },
+    {
+      "slug": "canva",
+      "title": "Canva",
+      "category": "creative-tools",
+      "description": "Shortcuts, brand kit, template sizing, background removal, export settings",
+      "file": "cheatsheet_canva.pdf",
+      "tags": [
+        "canva",
+        "design",
+        "social-media",
+        "templates"
+      ]
+    },
+    {
+      "slug": "godot-4",
+      "title": "Godot 4",
+      "category": "game-dev",
+      "description": "GDScript reference, editor navigation, scene tree, signals, 2D/3D viewport",
+      "file": "cheatsheet_godot4.pdf",
+      "tags": [
+        "godot",
+        "gdscript",
+        "2d",
+        "3d"
+      ]
+    },
+    {
+      "slug": "gamemaker-studio-2",
+      "title": "GameMaker Studio 2",
+      "category": "game-dev",
+      "description": "GML reference, room editor, object events, IDE shortcuts, draw/step pattern",
+      "file": "cheatsheet_gamemaker_studio2.pdf",
+      "tags": [
+        "gamemaker",
+        "gml",
+        "2d",
+        "game"
+      ]
+    },
+    {
+      "slug": "unreal-engine-5",
+      "title": "Unreal Engine 5",
+      "category": "game-dev",
+      "description": "Viewport controls, Blueprint editor, C++ Actor pattern, spawn/delegates",
+      "file": "cheatsheet_unreal_engine5.pdf",
+      "tags": [
+        "unreal",
+        "blueprint",
+        "cpp",
+        "3d"
+      ]
+    },
+    {
+      "slug": "rpgmaker-mv",
+      "title": "RPG Maker MV",
+      "category": "game-dev",
+      "description": "Editor, database, event commands, JavaScript plugin template, script calls",
+      "file": "cheatsheet_rpgmaker_mv.pdf",
+      "tags": [
+        "rpgmaker",
+        "javascript",
+        "rpg",
+        "events"
+      ]
+    },
+    {
+      "slug": "rpgmaker-vxace",
+      "title": "RPG Maker VX Ace",
+      "category": "game-dev",
+      "description": "RGSS3 Ruby scripting, custom Scene class, alias pattern, event commands",
+      "file": "cheatsheet_rpgmaker_vxace.pdf",
+      "tags": [
+        "rpgmaker",
+        "ruby",
+        "rgss3",
+        "rpg"
+      ]
+    },
+    {
+      "slug": "fmod-studio",
+      "title": "FMOD Studio",
+      "category": "game-dev",
+      "description": "Event architecture, parameters, banks/build, Godot 4 and Unreal 5 integration",
+      "file": "cheatsheet_fmod.pdf",
+      "tags": [
+        "fmod",
+        "audio",
+        "sound",
+        "game"
+      ]
+    },
+    {
+      "slug": "tiled",
+      "title": "Tiled Map Editor",
+      "category": "game-dev",
+      "description": "Layer types, tileset setup, objects, properties, export for Godot/GMS2/RPG Maker",
+      "file": "cheatsheet_tiled.pdf",
+      "tags": [
+        "tiled",
+        "tilemap",
+        "2d",
+        "game"
+      ]
+    },
+    {
+      "slug": "twine-harlowe",
+      "title": "Twine / Harlowe",
+      "category": "game-dev",
+      "description": "Links, variables, conditionals, macros, timing, RPG stat system example",
+      "file": "cheatsheet_twine_harlowe.pdf",
+      "tags": [
+        "twine",
+        "harlowe",
+        "interactive-fiction",
+        "narrative"
+      ]
+    },
+    {
+      "slug": "vscode",
+      "title": "VS Code",
+      "category": "dev-tools",
+      "description": "Essential shortcuts, multi-cursor, debugging, settings.json, must-have extensions",
+      "file": "cheatsheet_vscode.pdf",
+      "tags": [
+        "vscode",
+        "editor",
+        "shortcuts",
+        "debugging"
+      ]
+    },
+    {
+      "slug": "vscode-ai-extensions",
+      "title": "VS Code AI Extensions",
+      "category": "dev-tools",
+      "description": "GitHub Copilot, Continue.dev, Cline agent, Cursor tips, AI coding best practices",
+      "file": "cheatsheet_vscode_ai_extensions.pdf",
+      "tags": [
+        "vscode",
+        "copilot",
+        "ai",
+        "coding"
+      ]
+    },
+    {
+      "slug": "github-actions",
+      "title": "GitHub + Actions",
+      "category": "dev-tools",
+      "description": "PR workflow, site shortcuts, CI/CD YAML, secrets, matrix builds, Pages deploy",
+      "file": "cheatsheet_github_actions.pdf",
+      "tags": [
+        "github",
+        "actions",
+        "cicd",
+        "git"
+      ]
+    },
+    {
+      "slug": "git",
+      "title": "Git",
+      "category": "dev-tools",
+      "description": "Staging, branching, remote sync, history, stash, rebase, tags, git flow",
+      "file": "cheatsheet_git.pdf",
+      "tags": [
+        "git",
+        "version-control",
+        "branch",
+        "merge"
+      ]
+    },
+    {
+      "slug": "pip-venv-conda",
+      "title": "pip + venv + conda",
+      "category": "dev-tools",
+      "description": "Virtual environments, package management, requirements.txt, conda envs",
+      "file": "cheatsheet_pip_venv_conda.pdf",
+      "tags": [
+        "pip",
+        "venv",
+        "conda",
+        "python"
+      ]
+    },
+    {
+      "slug": "docker-dev",
+      "title": "Docker",
+      "category": "dev-tools",
+      "description": "Images, containers, Dockerfile, Compose, GPU support, useful commands",
+      "file": "cheatsheet_docker.pdf",
+      "tags": [
+        "docker",
+        "containers",
+        "devops"
+      ]
+    },
+    {
+      "slug": "bash-linux",
+      "title": "Bash / Linux CLI",
+      "category": "dev-tools",
+      "description": "Navigation, text processing, scripting, loops, functions, pipes, permissions",
+      "file": "cheatsheet_bash_linux.pdf",
+      "tags": [
+        "bash",
+        "linux",
+        "cli",
+        "shell"
+      ]
+    },
+    {
+      "slug": "powershell",
+      "title": "PowerShell",
+      "category": "dev-tools",
+      "description": "Navigation, variables, arrays, pipeline, files, error handling, remoting",
+      "file": "cheatsheet_powershell.pdf",
+      "tags": [
+        "powershell",
+        "windows",
+        "scripting",
+        "cli"
+      ]
+    },
+    {
+      "slug": "python",
+      "title": "Python",
+      "category": "languages",
+      "description": "Variables, data structures, OOP, comprehensions, decorators, generators, builtins",
+      "file": "cheatsheet_python.pdf",
+      "tags": [
+        "python",
+        "scripting",
+        "oop",
+        "functional"
+      ]
+    },
+    {
+      "slug": "java",
+      "title": "Java",
+      "category": "languages",
+      "description": "Java 17+, OOP, collections, Streams API, lambdas, records, sealed classes",
+      "file": "cheatsheet_java.pdf",
+      "tags": [
+        "java",
+        "oop",
+        "streams",
+        "jvm"
+      ]
+    },
+    {
+      "slug": "javascript-typescript",
+      "title": "JavaScript + TypeScript",
+      "category": "languages",
+      "description": "ES6+, array methods, async/await, fetch, TS types, DOM, Shopify JS patterns",
+      "file": "cheatsheet_javascript_typescript.pdf",
+      "tags": [
+        "javascript",
+        "typescript",
+        "es6",
+        "async"
+      ]
+    },
+    {
+      "slug": "html-css",
+      "title": "HTML + CSS",
+      "category": "languages",
+      "description": "Semantic HTML, Flexbox, Grid, custom properties, selectors, Shopify-specific CSS",
+      "file": "cheatsheet_html_css.pdf",
+      "tags": [
+        "html",
+        "css",
+        "flexbox",
+        "grid"
+      ]
+    },
+    {
+      "slug": "sql",
+      "title": "SQL",
+      "category": "languages",
+      "description": "SELECT, JOINs, aggregation, window functions, DDL/DML, Python SQLite, PostgreSQL",
+      "file": "cheatsheet_sql.pdf",
+      "tags": [
+        "sql",
+        "database",
+        "postgres",
+        "sqlite"
+      ]
+    },
+    {
+      "slug": "regex",
+      "title": "Regular Expressions",
+      "category": "languages",
+      "description": "Character classes, anchors, quantifiers, groups, flags, Python/JS/Java usage",
+      "file": "cheatsheet_regex.pdf",
+      "tags": [
+        "regex",
+        "pattern",
+        "matching",
+        "text"
+      ]
+    },
+    {
+      "slug": "json-yaml",
+      "title": "JSON + YAML",
+      "category": "languages",
+      "description": "Syntax, types, Python/JS usage, YAML anchors, Shopify schema, JSON Schema",
+      "file": "cheatsheet_json_yaml.pdf",
+      "tags": [
+        "json",
+        "yaml",
+        "config",
+        "data"
+      ]
+    },
+    {
+      "slug": "shopify-liquid",
+      "title": "Shopify Liquid",
+      "category": "languages",
+      "description": "Syntax, control flow, key objects, filters, schema settings, section rendering",
+      "file": "cheatsheet_shopify_liquid.pdf",
+      "tags": [
+        "shopify",
+        "liquid",
+        "ecommerce",
+        "theme"
+      ]
+    },
+    {
+      "slug": "excel",
+      "title": "Microsoft Excel",
+      "category": "productivity",
+      "description": "Formulas, pivot tables, XLOOKUP, dynamic arrays, charts, data tools",
+      "file": "cheatsheet_excel.pdf",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "formulas",
+        "data"
+      ]
+    },
+    {
+      "slug": "google-docs",
+      "title": "Google Docs",
+      "category": "productivity",
+      "description": "Shortcuts, styles, collaboration, suggesting mode, version history, add-ons",
+      "file": "cheatsheet_google_docs.pdf",
+      "tags": [
+        "google",
+        "docs",
+        "writing",
+        "collaboration"
+      ]
+    },
+    {
+      "slug": "google-sheets",
+      "title": "Google Sheets",
+      "category": "productivity",
+      "description": "ARRAYFORMULA, QUERY, IMPORTRANGE, Apps Script automation, unique formulas",
+      "file": "cheatsheet_google_sheets.pdf",
+      "tags": [
+        "google",
+        "sheets",
+        "spreadsheet",
+        "formulas"
+      ]
+    },
+    {
+      "slug": "quickbooks",
+      "title": "QuickBooks Online",
+      "category": "productivity",
+      "description": "Invoices, expenses, bank reconciliation, key reports, products, sales tax",
+      "file": "cheatsheet_quickbooks.pdf",
+      "tags": [
+        "quickbooks",
+        "accounting",
+        "invoices",
+        "business"
+      ]
+    },
+    {
+      "slug": "notion",
+      "title": "Notion",
+      "category": "productivity",
+      "description": "Blocks, databases, relations, rollups, formulas, shortcuts, AI features",
+      "file": "cheatsheet_notion.pdf",
+      "tags": [
+        "notion",
+        "pkm",
+        "database",
+        "productivity"
+      ]
+    },
+    {
+      "slug": "obsidian",
+      "title": "Obsidian",
+      "category": "productivity",
+      "description": "Linking, tags, graph view, Dataview plugin, shortcuts, daily notes workflow",
+      "file": "cheatsheet_obsidian.pdf",
+      "tags": [
+        "obsidian",
+        "pkm",
+        "markdown",
+        "notes"
+      ]
+    },
+    {
+      "slug": "trello-kanban",
+      "title": "Trello / Kanban",
+      "category": "productivity",
+      "description": "Shortcuts, workflow patterns, label systems, Power-Ups, team organization",
+      "file": "cheatsheet_trello_kanban.pdf",
+      "tags": [
+        "trello",
+        "kanban",
+        "project-management",
+        "workflow"
+      ]
+    },
+    {
+      "slug": "instagram",
+      "title": "Instagram",
+      "description": "Content formats, specs, algorithm tips, hashtags, analytics and Shopping setup.",
+      "category": "Social Media",
+      "tags": [
+        "instagram",
+        "social",
+        "content",
+        "reels",
+        "marketing"
+      ],
+      "file": "cheatsheet_instagram.pdf",
+      "free": true
+    },
+    {
+      "slug": "tiktok",
+      "title": "TikTok",
+      "description": "Video specs, algorithm signals, hook formulas, TikTok Shop and Creator tools.",
+      "category": "Social Media",
+      "tags": [
+        "tiktok",
+        "social",
+        "video",
+        "short-form",
+        "marketing"
+      ],
+      "file": "cheatsheet_tiktok.pdf",
+      "free": true
+    },
+    {
+      "slug": "youtube",
+      "title": "YouTube",
+      "description": "Upload specs, thumbnail best practices, SEO, Studio shortcuts and Shorts strategy.",
+      "category": "Social Media",
+      "tags": [
+        "youtube",
+        "video",
+        "seo",
+        "content",
+        "marketing"
+      ],
+      "file": "cheatsheet_youtube.pdf",
+      "free": true
+    },
+    {
+      "slug": "pinterest",
+      "title": "Pinterest",
+      "description": "Pin sizes, board strategy, Idea Pins, Rich Pins, SEO and shopping setup.",
+      "category": "Social Media",
+      "tags": [
+        "pinterest",
+        "social",
+        "ecommerce",
+        "seo",
+        "marketing"
+      ],
+      "file": "cheatsheet_pinterest.pdf",
+      "free": true
+    },
+    {
+      "slug": "facebook",
+      "title": "Facebook",
+      "description": "Pages vs Groups, post formats, Facebook Shop, Ads Manager basics and scheduling.",
+      "category": "Social Media",
+      "tags": [
+        "facebook",
+        "social",
+        "ads",
+        "marketing",
+        "ecommerce"
+      ],
+      "file": "cheatsheet_facebook.pdf",
+      "free": true
+    },
+    {
+      "slug": "x-twitter",
+      "title": "X / Twitter",
+      "description": "Character limits, threads, Spaces, X Premium features and dev community presence.",
+      "category": "Social Media",
+      "tags": [
+        "twitter",
+        "x",
+        "social",
+        "dev",
+        "marketing"
+      ],
+      "file": "cheatsheet_x_twitter.pdf",
+      "free": true
+    },
+    {
+      "slug": "linkedin",
+      "title": "LinkedIn",
+      "description": "Profile optimization, Creator Mode, post formats, job search and networking.",
+      "category": "Social Media",
+      "tags": [
+        "linkedin",
+        "social",
+        "career",
+        "networking",
+        "jobs"
+      ],
+      "file": "cheatsheet_linkedin.pdf",
+      "free": true
+    },
+    {
+      "slug": "etsy",
+      "title": "Etsy",
+      "description": "Listing SEO, Star Seller requirements, Etsy Ads, shipping profiles and shop stats.",
+      "category": "Social Media",
+      "tags": [
+        "etsy",
+        "ecommerce",
+        "seo",
+        "selling",
+        "handmade"
+      ],
+      "file": "cheatsheet_etsy.pdf",
+      "free": true
+    },
+    {
+      "slug": "threads",
+      "title": "Threads",
+      "description": "Meta's text platform — post formats, algorithm behavior, Fediverse and growth strategy.",
+      "category": "Social Media",
+      "tags": [
+        "threads",
+        "meta",
+        "social",
+        "content",
+        "marketing"
+      ],
+      "file": "cheatsheet_threads.pdf",
+      "free": true
+    },
+    {
+      "slug": "discord",
+      "title": "Discord",
+      "description": "Server setup, roles, permissions, bots, slash commands and community building.",
+      "category": "Social Media",
+      "tags": [
+        "discord",
+        "community",
+        "bots",
+        "gaming",
+        "server"
+      ],
+      "file": "cheatsheet_discord.pdf",
+      "free": true
+    },
+    {
+      "slug": "twitch",
+      "title": "Twitch",
+      "description": "Stream setup, OBS integration, channel points, Affiliate requirements and chat commands.",
+      "category": "Streaming",
+      "tags": [
+        "twitch",
+        "streaming",
+        "gaming",
+        "affiliate",
+        "live"
+      ],
+      "file": "cheatsheet_twitch.pdf",
+      "free": true
+    },
+    {
+      "slug": "meta-business-suite",
+      "title": "Meta Business Suite",
+      "description": "Manage Facebook and Instagram from one dashboard — scheduling, inbox, ads and insights.",
+      "category": "Social Media",
+      "tags": [
+        "meta",
+        "facebook",
+        "instagram",
+        "marketing",
+        "ads"
+      ],
+      "file": "cheatsheet_meta_business_suite.pdf",
+      "free": true
+    },
+    {
+      "slug": "buffer-later-hootsuite",
+      "title": "Buffer / Later / Hootsuite",
+      "description": "Social scheduling tools compared — features, best times to post and workflow tips.",
+      "category": "Social Media",
+      "tags": [
+        "scheduling",
+        "buffer",
+        "later",
+        "hootsuite",
+        "marketing"
+      ],
+      "file": "cheatsheet_buffer_later_hootsuite.pdf",
+      "free": true
+    },
+    {
+      "slug": "linktree-beacons",
+      "title": "Linktree / Beacons / Stan Store",
+      "description": "Link-in-bio tools — setup, customization, analytics and selling digital products.",
+      "category": "Social Media",
+      "tags": [
+        "linktree",
+        "beacons",
+        "link-in-bio",
+        "monetization",
+        "creator"
+      ],
+      "file": "cheatsheet_linktree_beacons.pdf",
+      "free": true
+    },
+    {
+      "slug": "canva-social",
+      "title": "Canva for Social Media",
+      "description": "Platform size templates, brand kit, batch content creation and scheduling workflow.",
+      "category": "Design",
+      "tags": [
+        "canva",
+        "design",
+        "social",
+        "templates",
+        "content"
+      ],
+      "file": "cheatsheet_canva_social.pdf",
+      "free": true
+    },
+    {
+      "slug": "content-calendar",
+      "title": "Content Calendar & Strategy",
+      "description": "Posting frequency by platform, content pillars, repurposing workflow and batch creation.",
+      "category": "Social Media",
+      "tags": [
+        "content",
+        "strategy",
+        "calendar",
+        "marketing",
+        "planning"
+      ],
+      "file": "cheatsheet_content_calendar.pdf",
+      "free": true
+    },
+    {
+      "slug": "premiere-pro",
+      "title": "Adobe Premiere Pro",
+      "description": "Timeline, shortcuts, multicam, color grading, audio, auto captions and export settings.",
+      "category": "Video Editing",
+      "tags": [
+        "premiere",
+        "adobe",
+        "video",
+        "editing",
+        "filmmaking"
+      ],
+      "file": "cheatsheet_premiere_pro.pdf",
+      "free": true
+    },
+    {
+      "slug": "after-effects",
+      "title": "Adobe After Effects",
+      "description": "Keyframes, expressions, shape layers, masks, track mattes and render queue.",
+      "category": "Video Editing",
+      "tags": [
+        "after-effects",
+        "adobe",
+        "motion",
+        "animation",
+        "vfx"
+      ],
+      "file": "cheatsheet_after_effects.pdf",
+      "free": true
+    },
+    {
+      "slug": "capcut",
+      "title": "CapCut",
+      "description": "Short-form video editing for TikTok, Reels and Shorts — captions, effects and templates.",
+      "category": "Video Editing",
+      "tags": [
+        "capcut",
+        "video",
+        "tiktok",
+        "reels",
+        "short-form"
+      ],
+      "file": "cheatsheet_capcut.pdf",
+      "free": true
+    },
+    {
+      "slug": "final-cut-pro",
+      "title": "Final Cut Pro",
+      "description": "Magnetic timeline, multicam, ProRes, Roles, color grading and export on Mac.",
+      "category": "Video Editing",
+      "tags": [
+        "final-cut",
+        "apple",
+        "video",
+        "mac",
+        "filmmaking"
+      ],
+      "file": "cheatsheet_final_cut_pro.pdf",
+      "free": true
+    },
+    {
+      "slug": "imovie",
+      "title": "iMovie",
+      "description": "Beginner video editing on Mac and iOS — trim, titles, transitions, audio and export.",
+      "category": "Video Editing",
+      "tags": [
+        "imovie",
+        "apple",
+        "video",
+        "beginner",
+        "mac"
+      ],
+      "file": "cheatsheet_imovie.pdf",
+      "free": true
+    },
+    {
+      "slug": "obs-studio",
+      "title": "OBS Studio",
+      "description": "Scenes, sources, audio mixer, stream settings, virtual camera and common fixes.",
+      "category": "Streaming",
+      "tags": [
+        "obs",
+        "streaming",
+        "recording",
+        "twitch",
+        "youtube"
+      ],
+      "file": "cheatsheet_obs_studio.pdf",
+      "free": true
+    },
+    {
+      "slug": "kdenlive",
+      "title": "Kdenlive",
+      "description": "Free open-source video editor — timeline, effects, color grading and export.",
+      "category": "Video Editing",
+      "tags": [
+        "kdenlive",
+        "open-source",
+        "video",
+        "linux",
+        "free"
+      ],
+      "file": "cheatsheet_kdenlive.pdf",
+      "free": true
+    },
+    {
+      "slug": "descript",
+      "title": "Descript",
+      "description": "Edit video by editing the transcript — Overdub AI voice, captions and publishing.",
+      "category": "Video Editing",
+      "tags": [
+        "descript",
+        "ai",
+        "podcast",
+        "video",
+        "captions"
+      ],
+      "file": "cheatsheet_descript.pdf",
+      "free": true
+    },
+    {
+      "slug": "audacity",
+      "title": "Audacity",
+      "description": "Free audio editor — recording, noise removal, effects, podcast cleanup and export.",
+      "category": "Audio",
+      "tags": [
+        "audacity",
+        "audio",
+        "podcast",
+        "free",
+        "recording"
+      ],
+      "file": "cheatsheet_audacity.pdf",
+      "free": true
+    },
+    {
+      "slug": "adobe-audition",
+      "title": "Adobe Audition",
+      "description": "Professional audio — spectral display, noise reduction, podcast mastering and multitrack.",
+      "category": "Audio",
+      "tags": [
+        "audition",
+        "adobe",
+        "audio",
+        "podcast",
+        "mastering"
+      ],
+      "file": "cheatsheet_adobe_audition.pdf",
+      "free": true
+    },
+    {
+      "slug": "garageband",
+      "title": "GarageBand",
+      "description": "Music creation, podcast recording, Apple Loops, Drummer and export on Mac and iOS.",
+      "category": "Audio",
+      "tags": [
+        "garageband",
+        "apple",
+        "music",
+        "podcast",
+        "mac"
+      ],
+      "file": "cheatsheet_garageband.pdf",
+      "free": true
+    },
+    {
+      "slug": "fl-studio",
+      "title": "FL Studio",
+      "description": "Piano roll, step sequencer, mixer, automation clips, patterns and export.",
+      "category": "Audio",
+      "tags": [
+        "fl-studio",
+        "music",
+        "daw",
+        "production",
+        "beats"
+      ],
+      "file": "cheatsheet_fl_studio.pdf",
+      "free": true
+    },
+    {
+      "slug": "ableton-live",
+      "title": "Ableton Live",
+      "description": "Session and Arrangement views, MIDI, audio warping, instruments and export.",
+      "category": "Audio",
+      "tags": [
+        "ableton",
+        "music",
+        "daw",
+        "live",
+        "production"
+      ],
+      "file": "cheatsheet_ableton_live.pdf",
+      "free": true
+    },
+    {
+      "slug": "streamlabs",
+      "title": "Streamlabs",
+      "description": "Alerts, overlays, widgets, tip page, Cloudbot commands and multistream setup.",
+      "category": "Streaming",
+      "tags": [
+        "streamlabs",
+        "streaming",
+        "alerts",
+        "overlays",
+        "twitch"
+      ],
+      "file": "cheatsheet_streamlabs.pdf",
+      "free": true
+    },
+    {
+      "slug": "streamelements",
+      "title": "StreamElements",
+      "description": "SE.Live OBS plugin, overlay editor, chatbot, loyalty points and tip page.",
+      "category": "Streaming",
+      "tags": [
+        "streamelements",
+        "streaming",
+        "overlays",
+        "chatbot",
+        "alerts"
+      ],
+      "file": "cheatsheet_streamelements.pdf",
+      "free": true
+    },
+    {
+      "slug": "restream",
+      "title": "Restream",
+      "description": "Multistream to 30+ platforms — RTMP setup, chat aggregation and analytics.",
+      "category": "Streaming",
+      "tags": [
+        "restream",
+        "multistream",
+        "twitch",
+        "youtube",
+        "live"
+      ],
+      "file": "cheatsheet_restream.pdf",
+      "free": true
+    },
+    {
+      "slug": "vtube-studio",
+      "title": "VTube Studio",
+      "description": "Live2D VTubing — model loading, face tracking, hotkeys, physics and OBS integration.",
+      "category": "VTubing",
+      "tags": [
+        "vtube-studio",
+        "vtubing",
+        "live2d",
+        "face-tracking",
+        "streaming"
+      ],
+      "file": "cheatsheet_vtube_studio.pdf",
+      "free": true
+    },
+    {
+      "slug": "veadotube-mini",
+      "title": "veadotube mini",
+      "description": "PNGtubing — PNG states, mic threshold, bouncing, OBS plugin and virtual camera.",
+      "category": "VTubing",
+      "tags": [
+        "veadotube",
+        "pngtubing",
+        "vtubing",
+        "streaming",
+        "obs"
+      ],
+      "file": "cheatsheet_veadotube_mini.pdf",
+      "free": true
+    },
+    {
+      "slug": "vseeface",
+      "title": "VSeeFace",
+      "description": "Free VRM avatar streaming — face tracking, hand tracking, Spout and OBS output.",
+      "category": "VTubing",
+      "tags": [
+        "vseeface",
+        "vtubing",
+        "vrm",
+        "face-tracking",
+        "streaming"
+      ],
+      "file": "cheatsheet_vseeface.pdf",
+      "free": true
+    },
+    {
+      "slug": "live2d-cubism",
+      "title": "Live2D Cubism Editor",
+      "description": "Create VTuber models — mesh, parameters, keyforms, physics and export to VTube Studio.",
+      "category": "VTubing",
+      "tags": [
+        "live2d",
+        "vtubing",
+        "rigging",
+        "animation",
+        "model"
+      ],
+      "file": "cheatsheet_live2d_cubism.pdf",
+      "free": true
+    },
+    {
+      "slug": "vroid-studio",
+      "title": "VRoid Studio",
+      "description": "Free 3D VTuber model creator — face, hair, outfit customization and VRM export.",
+      "category": "VTubing",
+      "tags": [
+        "vroid",
+        "vtubing",
+        "3d",
+        "avatar",
+        "model"
+      ],
+      "file": "cheatsheet_vroid_studio.pdf",
+      "free": true
+    },
+    {
+      "slug": "inochi2d",
+      "title": "Inochi2D",
+      "description": "Free open-source Live2D alternative — Inochi Creator rigging and Session streaming.",
+      "category": "VTubing",
+      "tags": [
+        "inochi2d",
+        "vtubing",
+        "open-source",
+        "rigging",
+        "free"
+      ],
+      "file": "cheatsheet_inochi2d.pdf",
+      "free": true
+    },
+    {
+      "slug": "streamerbot",
+      "title": "Streamer.bot / Touch Portal",
+      "description": "Stream automation — triggers, actions, chat commands, channel points and OBS control.",
+      "category": "Streaming",
+      "tags": [
+        "streamerbot",
+        "automation",
+        "streaming",
+        "obs",
+        "touchportal"
+      ],
+      "file": "cheatsheet_streamerbot.pdf",
+      "free": true
+    },
+    {
+      "slug": "maya",
+      "title": "Autodesk Maya",
+      "description": "3D modeling, rigging, animation, UV mapping and Arnold rendering shortcuts.",
+      "category": "3D & Animation",
+      "tags": [
+        "maya",
+        "3d",
+        "animation",
+        "rigging",
+        "modeling"
+      ],
+      "file": "cheatsheet_maya.pdf",
+      "free": true
+    },
+    {
+      "slug": "cinema4d",
+      "title": "Cinema 4D",
+      "description": "3D motion graphics, MoGraph system, deformers, materials and rendering.",
+      "category": "3D & Animation",
+      "tags": [
+        "cinema4d",
+        "3d",
+        "motion-graphics",
+        "mograph",
+        "rendering"
+      ],
+      "file": "cheatsheet_cinema4d.pdf",
+      "free": true
+    },
+    {
+      "slug": "zbrush",
+      "title": "ZBrush",
+      "description": "3D sculpting — core brushes, DynaMesh, ZRemesher, polypaint and export.",
+      "category": "3D & Animation",
+      "tags": [
+        "zbrush",
+        "sculpting",
+        "3d",
+        "game-art",
+        "characters"
+      ],
+      "file": "cheatsheet_zbrush.pdf",
+      "free": true
+    },
+    {
+      "slug": "spine2d",
+      "title": "Spine 2D",
+      "description": "Skeletal animation for games — bones, mesh weights, IK, skins and runtime export.",
+      "category": "3D & Animation",
+      "tags": [
+        "spine",
+        "2d",
+        "animation",
+        "game-dev",
+        "skeletal"
+      ],
+      "file": "cheatsheet_spine2d.pdf",
+      "free": true
+    },
+    {
+      "slug": "figma",
+      "title": "Figma",
+      "description": "Frames, components, auto layout, variables, prototyping, dev mode and collaboration.",
+      "category": "Design",
+      "tags": [
+        "figma",
+        "ui",
+        "ux",
+        "design",
+        "prototyping"
+      ],
+      "file": "cheatsheet_figma.pdf",
+      "free": true
+    },
+    {
+      "slug": "adobe-xd",
+      "title": "Adobe XD",
+      "description": "Artboards, components, Repeat Grid, prototyping, sharing and developer handoff.",
+      "category": "Design",
+      "tags": [
+        "adobe-xd",
+        "ui",
+        "ux",
+        "prototyping",
+        "design"
+      ],
+      "file": "cheatsheet_adobe_xd.pdf",
+      "free": true
+    },
+    {
+      "slug": "penpot",
+      "title": "Penpot",
+      "description": "Free open-source Figma alternative — frames, flex layout, components and CSS export.",
+      "category": "Design",
+      "tags": [
+        "penpot",
+        "open-source",
+        "ui",
+        "ux",
+        "free"
+      ],
+      "file": "cheatsheet_penpot.pdf",
+      "free": true
+    },
+    {
+      "slug": "react",
+      "title": "React",
+      "description": "Hooks, JSX, state, props, context, useEffect, useReducer and common patterns.",
+      "category": "Web Development",
+      "tags": [
+        "react",
+        "javascript",
+        "frontend",
+        "hooks",
+        "jsx"
+      ],
+      "file": "cheatsheet_react.pdf",
+      "free": true
+    },
+    {
+      "slug": "nextjs",
+      "title": "Next.js",
+      "description": "App router, server components, data fetching, API routes, metadata and deployment.",
+      "category": "Web Development",
+      "tags": [
+        "nextjs",
+        "react",
+        "javascript",
+        "fullstack",
+        "vercel"
+      ],
+      "file": "cheatsheet_nextjs.pdf",
+      "free": true
+    },
+    {
+      "slug": "tailwind",
+      "title": "Tailwind CSS",
+      "description": "Utility classes, spacing, typography, responsive design, dark mode and config.",
+      "category": "Web Development",
+      "tags": [
+        "tailwind",
+        "css",
+        "utility",
+        "responsive",
+        "frontend"
+      ],
+      "file": "cheatsheet_tailwind.pdf",
+      "free": true
+    },
+    {
+      "slug": "fastapi",
+      "title": "FastAPI",
+      "description": "Routes, Pydantic models, async, dependency injection, auth and OpenAPI docs.",
+      "category": "Web Development",
+      "tags": [
+        "fastapi",
+        "python",
+        "api",
+        "backend",
+        "async"
+      ],
+      "file": "cheatsheet_fastapi.pdf",
+      "free": true
+    },
+    {
+      "slug": "flask",
+      "title": "Flask",
+      "description": "Routes, templates, blueprints, SQLAlchemy CRUD, sessions and deployment.",
+      "category": "Web Development",
+      "tags": [
+        "flask",
+        "python",
+        "web",
+        "backend",
+        "api"
+      ],
+      "file": "cheatsheet_flask.pdf",
+      "free": true
+    },
+    {
+      "slug": "vuejs",
+      "title": "Vue.js",
+      "description": "Composition API, directives, reactive, watch, Pinia state and Vue Router.",
+      "category": "Web Development",
+      "tags": [
+        "vue",
+        "javascript",
+        "frontend",
+        "composition-api",
+        "spa"
+      ],
+      "file": "cheatsheet_vuejs.pdf",
+      "free": true
+    },
+    {
+      "slug": "csharp",
+      "title": "C# Basics",
+      "description": "Syntax, OOP, LINQ, async/await, collections and Unity scripting context.",
+      "category": "Programming",
+      "tags": [
+        "csharp",
+        "dotnet",
+        "unity",
+        "oop",
+        "programming"
+      ],
+      "file": "cheatsheet_csharp.pdf",
+      "free": true
+    },
+    {
+      "slug": "cpp",
+      "title": "C++ Basics",
+      "description": "Pointers, references, memory management, STL, modern C++ and Unreal Engine context.",
+      "category": "Programming",
+      "tags": [
+        "cpp",
+        "c++",
+        "systems",
+        "unreal",
+        "programming"
+      ],
+      "file": "cheatsheet_cpp.pdf",
+      "free": true
+    },
+    {
+      "slug": "rust",
+      "title": "Rust Basics",
+      "description": "Ownership, borrowing, structs, enums, error handling, iterators and Cargo.",
+      "category": "Programming",
+      "tags": [
+        "rust",
+        "systems",
+        "ownership",
+        "cargo",
+        "programming"
+      ],
+      "file": "cheatsheet_rust.pdf",
+      "free": true
+    },
+    {
+      "slug": "golang",
+      "title": "Go (Golang)",
+      "description": "Syntax, structs, interfaces, goroutines, channels, error handling and modules.",
+      "category": "Programming",
+      "tags": [
+        "go",
+        "golang",
+        "backend",
+        "concurrency",
+        "programming"
+      ],
+      "file": "cheatsheet_golang.pdf",
+      "free": true
+    },
+    {
+      "slug": "lua",
+      "title": "Lua",
+      "description": "Syntax, tables, metatables, OOP patterns, coroutines and game scripting context.",
+      "category": "Programming",
+      "tags": [
+        "lua",
+        "scripting",
+        "roblox",
+        "love2d",
+        "game-dev"
+      ],
+      "file": "cheatsheet_lua.pdf",
+      "free": true
+    },
+    {
+      "slug": "aws",
+      "title": "AWS Essentials",
+      "description": "EC2, S3, Lambda, IAM, CloudWatch, CLI commands and common architecture patterns.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "aws",
+        "cloud",
+        "devops",
+        "lambda",
+        "s3"
+      ],
+      "file": "cheatsheet_aws.pdf",
+      "free": true
+    },
+    {
+      "slug": "gcp",
+      "title": "Google Cloud Platform",
+      "description": "Compute Engine, Cloud Storage, Cloud Run, BigQuery, Vertex AI and gcloud CLI.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "gcp",
+        "google-cloud",
+        "cloud",
+        "devops",
+        "ml"
+      ],
+      "file": "cheatsheet_gcp.pdf",
+      "free": true
+    },
+    {
+      "slug": "azure",
+      "title": "Azure Essentials",
+      "description": "VMs, Blob Storage, Functions, App Service, Azure CLI and cost management.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "azure",
+        "microsoft",
+        "cloud",
+        "devops",
+        "functions"
+      ],
+      "file": "cheatsheet_azure.pdf",
+      "free": true
+    },
+    {
+      "slug": "kubernetes",
+      "title": "Kubernetes",
+      "description": "Pods, deployments, services, kubectl commands, namespaces and Helm basics.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "devops",
+        "containers",
+        "docker"
+      ],
+      "file": "cheatsheet_kubernetes.pdf",
+      "free": true
+    },
+    {
+      "slug": "terraform",
+      "title": "Terraform",
+      "description": "HCL syntax, plan/apply/destroy, variables, state management and modules.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "infrastructure",
+        "cloud"
+      ],
+      "file": "cheatsheet_terraform.pdf",
+      "free": true
+    },
+    {
+      "slug": "tableau",
+      "title": "Tableau",
+      "description": "Connecting data, building charts, calculated fields, filters, dashboards and publishing.",
+      "category": "Data & Analytics",
+      "tags": [
+        "tableau",
+        "data",
+        "visualization",
+        "bi",
+        "analytics"
+      ],
+      "file": "cheatsheet_tableau.pdf",
+      "free": true
+    },
+    {
+      "slug": "powerbi",
+      "title": "Power BI",
+      "description": "DAX formulas, Power Query, data model, visuals, RLS and publishing to service.",
+      "category": "Data & Analytics",
+      "tags": [
+        "powerbi",
+        "microsoft",
+        "data",
+        "bi",
+        "dax"
+      ],
+      "file": "cheatsheet_powerbi.pdf",
+      "free": true
+    },
+    {
+      "slug": "ga4",
+      "title": "Google Analytics 4",
+      "description": "Events, metrics, UTM parameters, explorations, audiences and account setup.",
+      "category": "Data & Analytics",
+      "tags": [
+        "ga4",
+        "analytics",
+        "google",
+        "seo",
+        "marketing"
+      ],
+      "file": "cheatsheet_ga4.pdf",
+      "free": true
+    },
+    {
+      "slug": "unity",
+      "title": "Unity",
+      "description": "GameObjects, MonoBehaviour, input, physics, prefabs, UI Canvas and build export.",
+      "category": "Game Development",
+      "tags": [
+        "unity",
+        "game-dev",
+        "csharp",
+        "gameobject",
+        "engine"
+      ],
+      "file": "cheatsheet_unity.pdf",
+      "free": true
+    },
+    {
+      "slug": "pygame",
+      "title": "Pygame",
+      "description": "Python game dev — surfaces, sprites, groups, collision detection and sound.",
+      "category": "Game Development",
+      "tags": [
+        "pygame",
+        "python",
+        "game-dev",
+        "2d",
+        "sprites"
+      ],
+      "file": "cheatsheet_pygame.pdf",
+      "free": true
+    },
+    {
+      "slug": "defold",
+      "title": "Defold",
+      "description": "Lua game engine — collections, scripts, messages, physics and mobile build.",
+      "category": "Game Development",
+      "tags": [
+        "defold",
+        "lua",
+        "game-dev",
+        "mobile",
+        "engine"
+      ],
+      "file": "cheatsheet_defold.pdf",
+      "free": true
+    },
+    {
+      "slug": "markdown",
+      "title": "Markdown Essentials",
+      "description": "Complete syntax — headings, lists, links, code, tables, task lists and GitHub Flavored Markdown.",
+      "category": "Writing & Docs",
+      "tags": [
+        "markdown",
+        "writing",
+        "docs",
+        "github",
+        "syntax"
+      ],
+      "file": "cheatsheet_markdown.pdf",
+      "free": true
+    },
+    {
+      "slug": "scrivener",
+      "title": "Scrivener",
+      "description": "Binder, corkboard, outliner, snapshots, compile settings and writing tools.",
+      "category": "Writing & Docs",
+      "tags": [
+        "scrivener",
+        "writing",
+        "novel",
+        "screenwriting",
+        "docs"
+      ],
+      "file": "cheatsheet_scrivener.pdf",
+      "free": true
+    },
+    {
+      "slug": "confluence-jira",
+      "title": "Confluence & Jira",
+      "description": "Atlassian docs and issue tracking — macros, JQL queries, sprints and shortcuts.",
+      "category": "Writing & Docs",
+      "tags": [
+        "confluence",
+        "jira",
+        "atlassian",
+        "project-management",
+        "agile"
+      ],
+      "file": "cheatsheet_confluence_jira.pdf",
+      "free": true
+    },
+    {
+      "slug": "illustrator",
+      "title": "Adobe Illustrator",
+      "description": "Pen tool, Pathfinder, type, colors, print/sticker export and clipping masks.",
+      "category": "Design",
+      "tags": [
+        "illustrator",
+        "adobe",
+        "vector",
+        "design",
+        "print"
+      ],
+      "file": "cheatsheet_illustrator.pdf",
+      "free": true
+    },
+    {
+      "slug": "indesign",
+      "title": "Adobe InDesign",
+      "description": "Master pages, paragraph styles, frames, typography, tables and print export.",
+      "category": "Design",
+      "tags": [
+        "indesign",
+        "adobe",
+        "layout",
+        "print",
+        "publishing"
+      ],
+      "file": "cheatsheet_indesign.pdf",
+      "free": true
+    },
+    {
+      "slug": "affinity",
+      "title": "Affinity Designer & Publisher",
+      "description": "Adobe alternative — vector design, page layout, boolean ops and print export.",
+      "category": "Design",
+      "tags": [
+        "affinity",
+        "vector",
+        "design",
+        "layout",
+        "print"
+      ],
+      "file": "cheatsheet_affinity.pdf",
+      "free": true
+    },
+    {
+      "slug": "shopify-admin",
+      "title": "Shopify Admin",
+      "description": "Products, variants, collections, orders, discounts, shipping and analytics.",
+      "category": "Ecommerce",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "store",
+        "products",
+        "selling"
+      ],
+      "file": "cheatsheet_shopify_admin.pdf",
+      "free": true
+    },
+    {
+      "slug": "woocommerce",
+      "title": "WooCommerce",
+      "description": "WordPress ecommerce — products, orders, payments, shipping and key plugins.",
+      "category": "Ecommerce",
+      "tags": [
+        "woocommerce",
+        "wordpress",
+        "ecommerce",
+        "store",
+        "selling"
+      ],
+      "file": "cheatsheet_woocommerce.pdf",
+      "free": true
+    },
+    {
+      "slug": "stripe",
+      "title": "Stripe",
+      "description": "PaymentIntents, subscriptions, webhooks, Stripe CLI and test card numbers.",
+      "category": "Ecommerce",
+      "tags": [
+        "stripe",
+        "payments",
+        "api",
+        "subscriptions",
+        "ecommerce"
+      ],
+      "file": "cheatsheet_stripe.pdf",
+      "free": true
+    },
+    {
+      "slug": "linux-networking",
+      "title": "Linux Networking",
+      "description": "ip, ssh, scp, curl, wget, ss, ufw firewall, nmap scanning and troubleshooting.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "linux",
+        "networking",
+        "ssh",
+        "cli",
+        "devops"
+      ],
+      "file": "cheatsheet_linux_networking.pdf",
+      "free": true
+    },
+    {
+      "slug": "cybersecurity",
+      "title": "Cybersecurity Basics",
+      "description": "OWASP Top 10, attack types, hashing, JWT, OAuth 2.0, TLS and security headers.",
+      "category": "Cloud & DevOps",
+      "tags": [
+        "security",
+        "owasp",
+        "jwt",
+        "oauth",
+        "hashing"
+      ],
+      "file": "cheatsheet_cybersecurity.pdf",
+      "free": true
+    },
+    {
+      "slug": "r-language",
+      "title": "R Language",
+      "description": "dplyr, tidyr, ggplot2, statistical functions, data reading and pipe operator.",
+      "category": "Data & Analytics",
+      "tags": [
+        "r",
+        "statistics",
+        "data-science",
+        "ggplot2",
+        "dplyr"
+      ],
+      "file": "cheatsheet_r_language.pdf",
+      "free": true
+    },
+    {
+      "slug": "logic-pro",
+      "title": "Logic Pro",
+      "description": "Smart Tempo, Flex Time, Space Designer, mixing, podcast workflow and export.",
+      "category": "Audio",
+      "tags": [
+        "logic-pro",
+        "apple",
+        "music",
+        "daw",
+        "podcast"
+      ],
+      "file": "cheatsheet_logic_pro.pdf",
+      "free": true
+    },
+    {
+      "slug": "looker-studio",
+      "title": "Looker Studio",
+      "description": "Free Google dashboards — connect GA4, Sheets, BigQuery, charts and sharing.",
+      "category": "Data & Analytics",
+      "tags": [
+        "looker-studio",
+        "google",
+        "dashboards",
+        "analytics",
+        "bi"
+      ],
+      "file": "cheatsheet_looker_studio.pdf",
+      "free": true
+    }
   ]
 }

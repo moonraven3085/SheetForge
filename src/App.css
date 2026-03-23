@@ -105,7 +105,7 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border2);
-  padding: 10px 0 8px;
+  padding: 12px 0 14px;
 }
 
 /* Search inside filter bar */
@@ -162,18 +162,11 @@
   color: var(--text);
 }
 
-/* Category pills */
+/* Category pills — wrapping grid */
 .pills-scroll {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  padding-bottom: 2px;
-}
-
-.pills-scroll::-webkit-scrollbar {
-  display: none;
 }
 
 /* ── Grid ─────────────────────────────────────────────── */

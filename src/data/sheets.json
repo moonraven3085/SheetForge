@@ -130,6 +130,6 @@
     { "slug": "quickbooks", "title": "QuickBooks Online", "category": "productivity", "description": "Invoices, expenses, bank reconciliation, key reports, products, sales tax", "file": "cheatsheet_quickbooks.pdf", "tags": ["quickbooks","accounting","invoices","business"] },
     { "slug": "notion", "title": "Notion", "category": "productivity", "description": "Blocks, databases, relations, rollups, formulas, shortcuts, AI features", "file": "cheatsheet_notion.pdf", "tags": ["notion","pkm","database","productivity"] },
     { "slug": "obsidian", "title": "Obsidian", "category": "productivity", "description": "Linking, tags, graph view, Dataview plugin, shortcuts, daily notes workflow", "file": "cheatsheet_obsidian.pdf", "tags": ["obsidian","pkm","markdown","notes"] },
-    { "slug": "trello-kanban", "title": "Trello / Kanban", "category": "productivity", "description": "Shortcuts, workflow patterns, label systems, Power-Ups, team organization", "file": "cheatsheet_trello_kanban.pdf", "tags": ["trello","kanban","project-management","workflow"] }
+    { "slug": "trello-kanban", "title": "Trello / Kanban", "category": "productivity", "description": "Shortcuts, workflow patterns, label systems, Power-Ups, team organization", "file": "cheatsheet_trello_kanban.pdf", "tags": ["trello","kanban","project-management","workflow"] },new_sheets_entries.json
   ]
 }

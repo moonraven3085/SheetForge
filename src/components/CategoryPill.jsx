@@ -1,5 +1,6 @@
-// CategoryPill.jsx
-export function CategoryPill({ label, count, accent, active, onClick, icon }) {
+import './CategoryPill.css'
+
+export function CategoryPill({ label, accent, active, onClick, icon }) {
   return (
     <button
       onClick={onClick}
@@ -8,7 +9,6 @@ export function CategoryPill({ label, count, accent, active, onClick, icon }) {
     >
       {icon && <span className="pill-icon">{icon}</span>}
       {label}
-      <span className="pill-count">{count}</span>
     </button>
   )
 }

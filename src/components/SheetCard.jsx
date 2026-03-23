@@ -1,15 +1,17 @@
+import { Link } from 'react-router-dom'
 import './SheetCard.css'
 
 const DOWNLOAD_BASE = '/pdfs/'
 const PREMIUM_LOCKED = import.meta.env.VITE_PREMIUM_LOCKED === 'true'
 
-export default function SheetCard({ sheet, accent, index, onClick }) {
+export default function SheetCard({ sheet, accent, index }) {
   const ac     = sheet.ac     || accent || '#58a6ff'
   const acGlow = sheet.acGlow || 'rgba(88,166,255,0.35)'
   const acDark = sheet.acDark || '#0c2040'
   const abbr   = sheet.abbr   || sheet.title.slice(0, 3).toUpperCase()
 
   function handleDownload(e) {
+    e.preventDefault()
     e.stopPropagation()
     if (PREMIUM_LOCKED) {
       alert('Premium download coming soon! Sign up for early access.')
@@ -22,18 +24,15 @@ export default function SheetCard({ sheet, accent, index, onClick }) {
   }
 
   return (
-    <div
+    <Link
+      to={`/sheets/${sheet.slug}`}
       className="sheet-card"
       style={{
-        '--ac':     ac,
+        '--ac':      ac,
         '--ac-glow': acGlow,
         '--ac-dark': acDark,
         animationDelay: `${Math.min(index * 0.03, 0.4)}s`
       }}
-      onClick={onClick}
-      role="button"
-      tabIndex={0}
-      onKeyDown={e => e.key === 'Enter' && onClick()}
     >
       <div className="card-badge-wrap">
         <div className="card-badge">
@@ -64,6 +63,6 @@ export default function SheetCard({ sheet, accent, index, onClick }) {
           </svg>
         )}
       </div>
-    </div>
+    </Link>
   )
 }

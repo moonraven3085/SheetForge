@@ -127,7 +127,6 @@ export default function App() {
           <div className="pills-scroll">
             <CategoryPill
               label="All"
-              count={catalog.sheets.length}
               active={activeCategory === 'all'}
               onClick={() => setActiveCategory('all')}
             />
@@ -135,7 +134,6 @@ export default function App() {
               <CategoryPill
                 key={cat.id}
                 label={cat.label}
-                count={counts[cat.id] || 0}
                 accent={cat.accent}
                 active={activeCategory === cat.id}
                 onClick={() => setActiveCategory(cat.id)}

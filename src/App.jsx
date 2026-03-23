@@ -1,5 +1,4 @@
 import { useState, useMemo } from 'react'
-import { useNavigate } from 'react-router-dom'
 import catalog from './data/sheets.json'
 import Nav from './components/Nav.jsx'
 import Footer from './components/Footer.jsx'
@@ -34,7 +33,6 @@ const ICONS = {
 export default function App() {
   const [search, setSearch] = useState('')
   const [activeCategory, setActiveCategory] = useState('all')
-  const navigate = useNavigate()
 
   const filtered = useMemo(() => {
     let sheets = catalog.sheets
@@ -171,7 +169,6 @@ export default function App() {
                       sheet={sheet}
                       accent={cat?.accent || '#58a6ff'}
                       index={i}
-                      onClick={() => navigate(`/sheets/${sheet.slug}`)}
                     />
                   )
                 })}

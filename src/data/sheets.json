@@ -174,7 +174,11 @@
         "llm",
         "api",
         "python"
-      ]
+      ],
+      "abbr": "OLL",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "lm-studio",
@@ -187,7 +191,11 @@
         "gguf",
         "gui",
         "server"
-      ]
+      ],
+      "abbr": "LMS",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "llama-cpp",
@@ -200,7 +208,11 @@
         "cpp",
         "gpu",
         "quantization"
-      ]
+      ],
+      "abbr": "LCP",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "open-webui",
@@ -213,7 +225,11 @@
         "docker",
         "rag",
         "ui"
-      ]
+      ],
+      "abbr": "OWU",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "jan-ai",
@@ -225,7 +241,11 @@
         "local",
         "desktop",
         "api"
-      ]
+      ],
+      "abbr": "JAN",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "anythingllm",
@@ -238,7 +258,11 @@
         "rag",
         "documents",
         "agent"
-      ]
+      ],
+      "abbr": "ALM",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "claude-api",
@@ -251,7 +275,11 @@
         "anthropic",
         "api",
         "streaming"
-      ]
+      ],
+      "abbr": "CLD",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "openai-api",
@@ -264,7 +292,11 @@
         "gpt",
         "api",
         "dalle"
-      ]
+      ],
+      "abbr": "OAI",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "gemini-api",
@@ -277,7 +309,11 @@
         "gemini",
         "api",
         "multimodal"
-      ]
+      ],
+      "abbr": "GEM",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "mistral-api",
@@ -290,7 +326,11 @@
         "api",
         "european",
         "embeddings"
-      ]
+      ],
+      "abbr": "MST",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "groq-api",
@@ -303,7 +343,11 @@
         "fast",
         "llm",
         "whisper"
-      ]
+      ],
+      "abbr": "GRQ",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "huggingface",
@@ -316,7 +360,11 @@
         "hub",
         "inference",
         "transformers"
-      ]
+      ],
+      "abbr": "HUG",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "replicate",
@@ -329,7 +377,11 @@
         "image",
         "flux",
         "lora"
-      ]
+      ],
+      "abbr": "RPL",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "google-colab",
@@ -342,7 +394,11 @@
         "notebook",
         "gpu",
         "google"
-      ]
+      ],
+      "abbr": "CLB",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "langchain",
@@ -355,7 +411,11 @@
         "rag",
         "agents",
         "llm"
-      ]
+      ],
+      "abbr": "LCH",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "prompt-engineering",
@@ -368,7 +428,11 @@
         "cot",
         "fewshot",
         "llm"
-      ]
+      ],
+      "abbr": "PRM",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "weights-biases",
@@ -381,7 +445,11 @@
         "tracking",
         "sweeps",
         "ml"
-      ]
+      ],
+      "abbr": "W&B",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "jupyter",
@@ -394,7 +462,11 @@
         "notebook",
         "python",
         "data"
-      ]
+      ],
+      "abbr": "JPY",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "comfyui-stable-diffusion",
@@ -407,7 +479,11 @@
         "stablediffusion",
         "image",
         "lora"
-      ]
+      ],
+      "abbr": "CMF",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "docker",
@@ -420,7 +496,11 @@
         "containers",
         "devops",
         "deploy"
-      ]
+      ],
+      "abbr": "DCK",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "numpy-pandas",
@@ -433,7 +513,11 @@
         "pandas",
         "data",
         "python"
-      ]
+      ],
+      "abbr": "NPD",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "pytorch",
@@ -446,7 +530,11 @@
         "deep-learning",
         "neural-networks",
         "python"
-      ]
+      ],
+      "abbr": "PTH",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "transformers",
@@ -459,7 +547,11 @@
         "huggingface",
         "finetune",
         "llm"
-      ]
+      ],
+      "abbr": "TRF",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "matplotlib-seaborn",
@@ -472,7 +564,11 @@
         "seaborn",
         "visualization",
         "python"
-      ]
+      ],
+      "abbr": "MPL",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "opencv",
@@ -485,7 +581,11 @@
         "vision",
         "cv2",
         "python"
-      ]
+      ],
+      "abbr": "CV2",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "sklearn",
@@ -498,7 +598,11 @@
         "ml",
         "classification",
         "regression"
-      ]
+      ],
+      "abbr": "SKL",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "procreate",
@@ -511,7 +615,11 @@
         "ipad",
         "digital-art",
         "illustration"
-      ]
+      ],
+      "abbr": "PRC",
+      "ac": "#a78bfa",
+      "acGlow": "rgba(167,139,250,0.35)",
+      "acDark": "#180f38"
     },
     {
       "slug": "adobe-fresco",
@@ -524,7 +632,11 @@
         "adobe",
         "digital-art",
         "brushes"
-      ]
+      ],
+      "abbr": "FRS",
+      "ac": "#38bdf8",
+      "acGlow": "rgba(56,189,248,0.35)",
+      "acDark": "#062030"
     },
     {
       "slug": "photoshop",
@@ -537,7 +649,11 @@
         "adobe",
         "photo",
         "design"
-      ]
+      ],
+      "abbr": "PSH",
+      "ac": "#60a5fa",
+      "acGlow": "rgba(96,165,250,0.35)",
+      "acDark": "#0a1e38"
     },
     {
       "slug": "aseprite",
@@ -550,7 +666,11 @@
         "pixel-art",
         "animation",
         "sprites"
-      ]
+      ],
+      "abbr": "ASP",
+      "ac": "#fb923c",
+      "acGlow": "rgba(251,146,60,0.35)",
+      "acDark": "#281408"
     },
     {
       "slug": "blender",
@@ -563,7 +683,11 @@
         "3d",
         "modeling",
         "render"
-      ]
+      ],
+      "abbr": "BLD",
+      "ac": "#4ade80",
+      "acGlow": "rgba(74,222,128,0.35)",
+      "acDark": "#062010"
     },
     {
       "slug": "davinci-resolve",
@@ -576,7 +700,11 @@
         "video",
         "color-grading",
         "editing"
-      ]
+      ],
+      "abbr": "DVR",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "inkscape",
@@ -589,7 +717,11 @@
         "vector",
         "svg",
         "design"
-      ]
+      ],
+      "abbr": "INK",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "krita",
@@ -602,7 +734,11 @@
         "painting",
         "digital-art",
         "open-source"
-      ]
+      ],
+      "abbr": "KRT",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "canva",
@@ -615,7 +751,11 @@
         "design",
         "social-media",
         "templates"
-      ]
+      ],
+      "abbr": "CNV",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "godot-4",
@@ -628,7 +768,11 @@
         "gdscript",
         "2d",
         "3d"
-      ]
+      ],
+      "abbr": "GDT",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "gamemaker-studio-2",
@@ -641,7 +785,11 @@
         "gml",
         "2d",
         "game"
-      ]
+      ],
+      "abbr": "GMS",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "unreal-engine-5",
@@ -654,7 +802,11 @@
         "blueprint",
         "cpp",
         "3d"
-      ]
+      ],
+      "abbr": "UE5",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "rpgmaker-mv",
@@ -667,7 +819,11 @@
         "javascript",
         "rpg",
         "events"
-      ]
+      ],
+      "abbr": "RMV",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "rpgmaker-vxace",
@@ -680,7 +836,11 @@
         "ruby",
         "rgss3",
         "rpg"
-      ]
+      ],
+      "abbr": "RVX",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "fmod-studio",
@@ -693,7 +853,11 @@
         "audio",
         "sound",
         "game"
-      ]
+      ],
+      "abbr": "FMD",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "tiled",
@@ -706,7 +870,11 @@
         "tilemap",
         "2d",
         "game"
-      ]
+      ],
+      "abbr": "TLD",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "twine-harlowe",
@@ -719,7 +887,11 @@
         "harlowe",
         "interactive-fiction",
         "narrative"
-      ]
+      ],
+      "abbr": "TWN",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "vscode",
@@ -732,7 +904,11 @@
         "editor",
         "shortcuts",
         "debugging"
-      ]
+      ],
+      "abbr": "VSC",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "vscode-ai-extensions",
@@ -745,7 +921,11 @@
         "copilot",
         "ai",
         "coding"
-      ]
+      ],
+      "abbr": "VAI",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "github-actions",
@@ -758,7 +938,11 @@
         "actions",
         "cicd",
         "git"
-      ]
+      ],
+      "abbr": "GHA",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "git",
@@ -771,7 +955,11 @@
         "version-control",
         "branch",
         "merge"
-      ]
+      ],
+      "abbr": "GIT",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "pip-venv-conda",
@@ -784,7 +972,11 @@
         "venv",
         "conda",
         "python"
-      ]
+      ],
+      "abbr": "PIP",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "docker-dev",
@@ -796,7 +988,11 @@
         "docker",
         "containers",
         "devops"
-      ]
+      ],
+      "abbr": "DCK",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "bash-linux",
@@ -809,7 +1005,11 @@
         "linux",
         "cli",
         "shell"
-      ]
+      ],
+      "abbr": "BSH",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "powershell",
@@ -822,7 +1022,11 @@
         "windows",
         "scripting",
         "cli"
-      ]
+      ],
+      "abbr": "PWS",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "python",
@@ -835,7 +1039,11 @@
         "scripting",
         "oop",
         "functional"
-      ]
+      ],
+      "abbr": "PYT",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "java",
@@ -848,7 +1056,11 @@
         "oop",
         "streams",
         "jvm"
-      ]
+      ],
+      "abbr": "JAV",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "javascript-typescript",
@@ -861,7 +1073,11 @@
         "typescript",
         "es6",
         "async"
-      ]
+      ],
+      "abbr": "JST",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "html-css",
@@ -874,7 +1090,11 @@
         "css",
         "flexbox",
         "grid"
-      ]
+      ],
+      "abbr": "HTM",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "sql",
@@ -887,7 +1107,11 @@
         "database",
         "postgres",
         "sqlite"
-      ]
+      ],
+      "abbr": "SQL",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "regex",
@@ -900,7 +1124,11 @@
         "pattern",
         "matching",
         "text"
-      ]
+      ],
+      "abbr": "RGX",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "json-yaml",
@@ -913,7 +1141,11 @@
         "yaml",
         "config",
         "data"
-      ]
+      ],
+      "abbr": "JYM",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "shopify-liquid",
@@ -926,7 +1158,11 @@
         "liquid",
         "ecommerce",
         "theme"
-      ]
+      ],
+      "abbr": "LQD",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "excel",
@@ -939,7 +1175,11 @@
         "spreadsheet",
         "formulas",
         "data"
-      ]
+      ],
+      "abbr": "XLS",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "google-docs",
@@ -952,7 +1192,11 @@
         "docs",
         "writing",
         "collaboration"
-      ]
+      ],
+      "abbr": "GDC",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "google-sheets",
@@ -965,7 +1209,11 @@
         "sheets",
         "spreadsheet",
         "formulas"
-      ]
+      ],
+      "abbr": "GSH",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "quickbooks",
@@ -978,7 +1226,11 @@
         "accounting",
         "invoices",
         "business"
-      ]
+      ],
+      "abbr": "QBO",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "notion",
@@ -991,7 +1243,11 @@
         "pkm",
         "database",
         "productivity"
-      ]
+      ],
+      "abbr": "NTN",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "obsidian",
@@ -1004,7 +1260,11 @@
         "pkm",
         "markdown",
         "notes"
-      ]
+      ],
+      "abbr": "OBS",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "trello-kanban",
@@ -1017,7 +1277,11 @@
         "kanban",
         "project-management",
         "workflow"
-      ]
+      ],
+      "abbr": "TRL",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "instagram",
@@ -1032,7 +1296,11 @@
         "marketing"
       ],
       "file": "cheatsheet_instagram.pdf",
-      "free": true
+      "free": true,
+      "abbr": "INS",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "tiktok",
@@ -1047,7 +1315,11 @@
         "marketing"
       ],
       "file": "cheatsheet_tiktok.pdf",
-      "free": true
+      "free": true,
+      "abbr": "TKT",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "youtube",
@@ -1062,7 +1334,11 @@
         "marketing"
       ],
       "file": "cheatsheet_youtube.pdf",
-      "free": true
+      "free": true,
+      "abbr": "YTB",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "pinterest",
@@ -1077,7 +1353,11 @@
         "marketing"
       ],
       "file": "cheatsheet_pinterest.pdf",
-      "free": true
+      "free": true,
+      "abbr": "PNT",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "facebook",
@@ -1092,7 +1372,11 @@
         "ecommerce"
       ],
       "file": "cheatsheet_facebook.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FBK",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "x-twitter",
@@ -1107,7 +1391,11 @@
         "marketing"
       ],
       "file": "cheatsheet_x_twitter.pdf",
-      "free": true
+      "free": true,
+      "abbr": "XTW",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "linkedin",
@@ -1122,7 +1410,11 @@
         "jobs"
       ],
       "file": "cheatsheet_linkedin.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LNK",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "etsy",
@@ -1137,7 +1429,11 @@
         "handmade"
       ],
       "file": "cheatsheet_etsy.pdf",
-      "free": true
+      "free": true,
+      "abbr": "ETS",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "threads",
@@ -1152,7 +1448,11 @@
         "marketing"
       ],
       "file": "cheatsheet_threads.pdf",
-      "free": true
+      "free": true,
+      "abbr": "THR",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "discord",
@@ -1167,7 +1467,11 @@
         "server"
       ],
       "file": "cheatsheet_discord.pdf",
-      "free": true
+      "free": true,
+      "abbr": "DSC",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "twitch",
@@ -1182,7 +1486,11 @@
         "live"
       ],
       "file": "cheatsheet_twitch.pdf",
-      "free": true
+      "free": true,
+      "abbr": "TWC",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "meta-business-suite",
@@ -1197,7 +1505,11 @@
         "ads"
       ],
       "file": "cheatsheet_meta_business_suite.pdf",
-      "free": true
+      "free": true,
+      "abbr": "MBS",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "buffer-later-hootsuite",
@@ -1212,7 +1524,11 @@
         "marketing"
       ],
       "file": "cheatsheet_buffer_later_hootsuite.pdf",
-      "free": true
+      "free": true,
+      "abbr": "BUF",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "linktree-beacons",
@@ -1227,7 +1543,11 @@
         "creator"
       ],
       "file": "cheatsheet_linktree_beacons.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LTR",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "canva-social",
@@ -1242,7 +1562,11 @@
         "content"
       ],
       "file": "cheatsheet_canva_social.pdf",
-      "free": true
+      "free": true,
+      "abbr": "CVS",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "content-calendar",
@@ -1257,7 +1581,11 @@
         "planning"
       ],
       "file": "cheatsheet_content_calendar.pdf",
-      "free": true
+      "free": true,
+      "abbr": "CNT",
+      "ac": "#e3b341",
+      "acGlow": "rgba(227,179,65,0.35)",
+      "acDark": "#201400"
     },
     {
       "slug": "premiere-pro",
@@ -1272,7 +1600,11 @@
         "filmmaking"
       ],
       "file": "cheatsheet_premiere_pro.pdf",
-      "free": true
+      "free": true,
+      "abbr": "PPR",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "after-effects",
@@ -1287,7 +1619,11 @@
         "vfx"
       ],
       "file": "cheatsheet_after_effects.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AEF",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "capcut",
@@ -1302,7 +1638,11 @@
         "short-form"
       ],
       "file": "cheatsheet_capcut.pdf",
-      "free": true
+      "free": true,
+      "abbr": "CPC",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "final-cut-pro",
@@ -1317,7 +1657,11 @@
         "filmmaking"
       ],
       "file": "cheatsheet_final_cut_pro.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FCP",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "imovie",
@@ -1332,7 +1676,11 @@
         "mac"
       ],
       "file": "cheatsheet_imovie.pdf",
-      "free": true
+      "free": true,
+      "abbr": "IMV",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "obs-studio",
@@ -1347,7 +1695,11 @@
         "youtube"
       ],
       "file": "cheatsheet_obs_studio.pdf",
-      "free": true
+      "free": true,
+      "abbr": "OBS",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "kdenlive",
@@ -1362,7 +1714,11 @@
         "free"
       ],
       "file": "cheatsheet_kdenlive.pdf",
-      "free": true
+      "free": true,
+      "abbr": "KDN",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "descript",
@@ -1377,7 +1733,11 @@
         "captions"
       ],
       "file": "cheatsheet_descript.pdf",
-      "free": true
+      "free": true,
+      "abbr": "DSP",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "audacity",
@@ -1392,7 +1752,11 @@
         "recording"
       ],
       "file": "cheatsheet_audacity.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AUD",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "adobe-audition",
@@ -1407,7 +1771,11 @@
         "mastering"
       ],
       "file": "cheatsheet_adobe_audition.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AAU",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "garageband",
@@ -1422,7 +1790,11 @@
         "mac"
       ],
       "file": "cheatsheet_garageband.pdf",
-      "free": true
+      "free": true,
+      "abbr": "GRG",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "fl-studio",
@@ -1437,7 +1809,11 @@
         "beats"
       ],
       "file": "cheatsheet_fl_studio.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FLS",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "ableton-live",
@@ -1452,7 +1828,11 @@
         "production"
       ],
       "file": "cheatsheet_ableton_live.pdf",
-      "free": true
+      "free": true,
+      "abbr": "ABL",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "streamlabs",
@@ -1467,7 +1847,11 @@
         "twitch"
       ],
       "file": "cheatsheet_streamlabs.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SLB",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "streamelements",
@@ -1482,7 +1866,11 @@
         "alerts"
       ],
       "file": "cheatsheet_streamelements.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SEL",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "restream",
@@ -1497,7 +1885,11 @@
         "live"
       ],
       "file": "cheatsheet_restream.pdf",
-      "free": true
+      "free": true,
+      "abbr": "RST",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "vtube-studio",
@@ -1512,7 +1904,11 @@
         "streaming"
       ],
       "file": "cheatsheet_vtube_studio.pdf",
-      "free": true
+      "free": true,
+      "abbr": "VTS",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "veadotube-mini",
@@ -1527,7 +1923,11 @@
         "obs"
       ],
       "file": "cheatsheet_veadotube_mini.pdf",
-      "free": true
+      "free": true,
+      "abbr": "VDT",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "vseeface",
@@ -1542,7 +1942,11 @@
         "streaming"
       ],
       "file": "cheatsheet_vseeface.pdf",
-      "free": true
+      "free": true,
+      "abbr": "VSF",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "live2d-cubism",
@@ -1557,7 +1961,11 @@
         "model"
       ],
       "file": "cheatsheet_live2d_cubism.pdf",
-      "free": true
+      "free": true,
+      "abbr": "L2D",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "vroid-studio",
@@ -1572,7 +1980,11 @@
         "model"
       ],
       "file": "cheatsheet_vroid_studio.pdf",
-      "free": true
+      "free": true,
+      "abbr": "VRD",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "inochi2d",
@@ -1587,7 +1999,11 @@
         "free"
       ],
       "file": "cheatsheet_inochi2d.pdf",
-      "free": true
+      "free": true,
+      "abbr": "IN2",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "streamerbot",
@@ -1602,7 +2018,11 @@
         "touchportal"
       ],
       "file": "cheatsheet_streamerbot.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SBT",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "maya",
@@ -1617,7 +2037,11 @@
         "modeling"
       ],
       "file": "cheatsheet_maya.pdf",
-      "free": true
+      "free": true,
+      "abbr": "MYA",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "cinema4d",
@@ -1632,7 +2056,11 @@
         "rendering"
       ],
       "file": "cheatsheet_cinema4d.pdf",
-      "free": true
+      "free": true,
+      "abbr": "C4D",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "zbrush",
@@ -1647,7 +2075,11 @@
         "characters"
       ],
       "file": "cheatsheet_zbrush.pdf",
-      "free": true
+      "free": true,
+      "abbr": "ZBR",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "spine2d",
@@ -1662,7 +2094,11 @@
         "skeletal"
       ],
       "file": "cheatsheet_spine2d.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SP2",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "figma",
@@ -1677,7 +2113,11 @@
         "prototyping"
       ],
       "file": "cheatsheet_figma.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FGM",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "adobe-xd",
@@ -1692,7 +2132,11 @@
         "design"
       ],
       "file": "cheatsheet_adobe_xd.pdf",
-      "free": true
+      "free": true,
+      "abbr": "XD",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "penpot",
@@ -1707,7 +2151,11 @@
         "free"
       ],
       "file": "cheatsheet_penpot.pdf",
-      "free": true
+      "free": true,
+      "abbr": "PNP",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "react",
@@ -1722,7 +2170,11 @@
         "jsx"
       ],
       "file": "cheatsheet_react.pdf",
-      "free": true
+      "free": true,
+      "abbr": "RCT",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "nextjs",
@@ -1737,7 +2189,11 @@
         "vercel"
       ],
       "file": "cheatsheet_nextjs.pdf",
-      "free": true
+      "free": true,
+      "abbr": "NXT",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "tailwind",
@@ -1752,7 +2208,11 @@
         "frontend"
       ],
       "file": "cheatsheet_tailwind.pdf",
-      "free": true
+      "free": true,
+      "abbr": "TWD",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "fastapi",
@@ -1767,7 +2227,11 @@
         "async"
       ],
       "file": "cheatsheet_fastapi.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FAP",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "flask",
@@ -1782,7 +2246,11 @@
         "api"
       ],
       "file": "cheatsheet_flask.pdf",
-      "free": true
+      "free": true,
+      "abbr": "FLK",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "vuejs",
@@ -1797,7 +2265,11 @@
         "spa"
       ],
       "file": "cheatsheet_vuejs.pdf",
-      "free": true
+      "free": true,
+      "abbr": "VUE",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "csharp",
@@ -1812,7 +2284,11 @@
         "programming"
       ],
       "file": "cheatsheet_csharp.pdf",
-      "free": true
+      "free": true,
+      "abbr": "C#",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "cpp",
@@ -1827,7 +2303,11 @@
         "programming"
       ],
       "file": "cheatsheet_cpp.pdf",
-      "free": true
+      "free": true,
+      "abbr": "C++",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "rust",
@@ -1842,7 +2322,11 @@
         "programming"
       ],
       "file": "cheatsheet_rust.pdf",
-      "free": true
+      "free": true,
+      "abbr": "RST",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "golang",
@@ -1857,7 +2341,11 @@
         "programming"
       ],
       "file": "cheatsheet_golang.pdf",
-      "free": true
+      "free": true,
+      "abbr": "GO",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "lua",
@@ -1872,7 +2360,11 @@
         "game-dev"
       ],
       "file": "cheatsheet_lua.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LUA",
+      "ac": "#e3b341",
+      "acGlow": "rgba(227,179,65,0.35)",
+      "acDark": "#201400"
     },
     {
       "slug": "aws",
@@ -1887,7 +2379,11 @@
         "s3"
       ],
       "file": "cheatsheet_aws.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AWS",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "gcp",
@@ -1902,7 +2398,11 @@
         "ml"
       ],
       "file": "cheatsheet_gcp.pdf",
-      "free": true
+      "free": true,
+      "abbr": "GCP",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "azure",
@@ -1917,7 +2417,11 @@
         "functions"
       ],
       "file": "cheatsheet_azure.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AZR",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "kubernetes",
@@ -1932,7 +2436,11 @@
         "docker"
       ],
       "file": "cheatsheet_kubernetes.pdf",
-      "free": true
+      "free": true,
+      "abbr": "K8S",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "terraform",
@@ -1947,7 +2455,11 @@
         "cloud"
       ],
       "file": "cheatsheet_terraform.pdf",
-      "free": true
+      "free": true,
+      "abbr": "TRF",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "tableau",
@@ -1962,7 +2474,11 @@
         "analytics"
       ],
       "file": "cheatsheet_tableau.pdf",
-      "free": true
+      "free": true,
+      "abbr": "TAB",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "powerbi",
@@ -1977,7 +2493,11 @@
         "dax"
       ],
       "file": "cheatsheet_powerbi.pdf",
-      "free": true
+      "free": true,
+      "abbr": "PBI",
+      "ac": "#e3b341",
+      "acGlow": "rgba(227,179,65,0.35)",
+      "acDark": "#201400"
     },
     {
       "slug": "ga4",
@@ -1992,7 +2512,11 @@
         "marketing"
       ],
       "file": "cheatsheet_ga4.pdf",
-      "free": true
+      "free": true,
+      "abbr": "GA4",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "unity",
@@ -2007,7 +2531,11 @@
         "engine"
       ],
       "file": "cheatsheet_unity.pdf",
-      "free": true
+      "free": true,
+      "abbr": "UNT",
+      "ac": "#79c0ff",
+      "acGlow": "rgba(121,192,255,0.35)",
+      "acDark": "#081828"
     },
     {
       "slug": "pygame",
@@ -2022,7 +2550,11 @@
         "sprites"
       ],
       "file": "cheatsheet_pygame.pdf",
-      "free": true
+      "free": true,
+      "abbr": "PYG",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "defold",
@@ -2037,7 +2569,11 @@
         "engine"
       ],
       "file": "cheatsheet_defold.pdf",
-      "free": true
+      "free": true,
+      "abbr": "DFD",
+      "ac": "#e3b341",
+      "acGlow": "rgba(227,179,65,0.35)",
+      "acDark": "#201400"
     },
     {
       "slug": "markdown",
@@ -2052,7 +2588,11 @@
         "syntax"
       ],
       "file": "cheatsheet_markdown.pdf",
-      "free": true
+      "free": true,
+      "abbr": "MD",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "scrivener",
@@ -2067,7 +2607,11 @@
         "docs"
       ],
       "file": "cheatsheet_scrivener.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SCR",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "confluence-jira",
@@ -2082,7 +2626,11 @@
         "agile"
       ],
       "file": "cheatsheet_confluence_jira.pdf",
-      "free": true
+      "free": true,
+      "abbr": "CNF",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "illustrator",
@@ -2097,7 +2645,11 @@
         "print"
       ],
       "file": "cheatsheet_illustrator.pdf",
-      "free": true
+      "free": true,
+      "abbr": "ILL",
+      "ac": "#e3b341",
+      "acGlow": "rgba(227,179,65,0.35)",
+      "acDark": "#201400"
     },
     {
       "slug": "indesign",
@@ -2112,7 +2664,11 @@
         "publishing"
       ],
       "file": "cheatsheet_indesign.pdf",
-      "free": true
+      "free": true,
+      "abbr": "IND",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "affinity",
@@ -2127,7 +2683,11 @@
         "print"
       ],
       "file": "cheatsheet_affinity.pdf",
-      "free": true
+      "free": true,
+      "abbr": "AFN",
+      "ac": "#ff7eb6",
+      "acGlow": "rgba(255,126,182,0.35)",
+      "acDark": "#2a0820"
     },
     {
       "slug": "shopify-admin",
@@ -2142,7 +2702,11 @@
         "selling"
       ],
       "file": "cheatsheet_shopify_admin.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SHO",
+      "ac": "#3fb950",
+      "acGlow": "rgba(63,185,80,0.35)",
+      "acDark": "#0a2010"
     },
     {
       "slug": "woocommerce",
@@ -2157,7 +2721,11 @@
         "selling"
       ],
       "file": "cheatsheet_woocommerce.pdf",
-      "free": true
+      "free": true,
+      "abbr": "WOO",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "stripe",
@@ -2172,7 +2740,11 @@
         "ecommerce"
       ],
       "file": "cheatsheet_stripe.pdf",
-      "free": true
+      "free": true,
+      "abbr": "STR",
+      "ac": "#d2a8ff",
+      "acGlow": "rgba(210,168,255,0.35)",
+      "acDark": "#1e0f40"
     },
     {
       "slug": "linux-networking",
@@ -2187,7 +2759,11 @@
         "devops"
       ],
       "file": "cheatsheet_linux_networking.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LNX",
+      "ac": "#39d353",
+      "acGlow": "rgba(57,211,83,0.35)",
+      "acDark": "#082010"
     },
     {
       "slug": "cybersecurity",
@@ -2202,7 +2778,11 @@
         "hashing"
       ],
       "file": "cheatsheet_cybersecurity.pdf",
-      "free": true
+      "free": true,
+      "abbr": "SEC",
+      "ac": "#f78166",
+      "acGlow": "rgba(247,129,102,0.35)",
+      "acDark": "#2a0f08"
     },
     {
       "slug": "r-language",
@@ -2217,7 +2797,11 @@
         "dplyr"
       ],
       "file": "cheatsheet_r_language.pdf",
-      "free": true
+      "free": true,
+      "abbr": "R",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     },
     {
       "slug": "logic-pro",
@@ -2232,7 +2816,11 @@
         "podcast"
       ],
       "file": "cheatsheet_logic_pro.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LGC",
+      "ac": "#ffa657",
+      "acGlow": "rgba(255,166,87,0.35)",
+      "acDark": "#301800"
     },
     {
       "slug": "looker-studio",
@@ -2247,7 +2835,11 @@
         "bi"
       ],
       "file": "cheatsheet_looker_studio.pdf",
-      "free": true
+      "free": true,
+      "abbr": "LKR",
+      "ac": "#58a6ff",
+      "acGlow": "rgba(88,166,255,0.35)",
+      "acDark": "#0c2040"
     }
   ]
 }

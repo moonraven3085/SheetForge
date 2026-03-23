@@ -979,22 +979,6 @@
       "acDark": "#0a2010"
     },
     {
-      "slug": "docker-dev",
-      "title": "Docker",
-      "category": "dev-tools",
-      "description": "Images, containers, Dockerfile, Compose, GPU support, useful commands",
-      "file": "cheatsheet_docker.pdf",
-      "tags": [
-        "docker",
-        "containers",
-        "devops"
-      ],
-      "abbr": "DCK",
-      "ac": "#79c0ff",
-      "acGlow": "rgba(121,192,255,0.35)",
-      "acDark": "#081828"
-    },
-    {
       "slug": "bash-linux",
       "title": "Bash / Linux CLI",
       "category": "dev-tools",
@@ -1438,7 +1422,7 @@
     {
       "slug": "threads",
       "title": "Threads",
-      "description": "Meta's text platform — post formats, algorithm behavior, Fediverse and growth strategy.",
+      "description": "Meta's text platform \u2014 post formats, algorithm behavior, Fediverse and growth strategy.",
       "category": "Social Media",
       "tags": [
         "threads",
@@ -1495,7 +1479,7 @@
     {
       "slug": "meta-business-suite",
       "title": "Meta Business Suite",
-      "description": "Manage Facebook and Instagram from one dashboard — scheduling, inbox, ads and insights.",
+      "description": "Manage Facebook and Instagram from one dashboard \u2014 scheduling, inbox, ads and insights.",
       "category": "Social Media",
       "tags": [
         "meta",
@@ -1514,7 +1498,7 @@
     {
       "slug": "buffer-later-hootsuite",
       "title": "Buffer / Later / Hootsuite",
-      "description": "Social scheduling tools compared — features, best times to post and workflow tips.",
+      "description": "Social scheduling tools compared \u2014 features, best times to post and workflow tips.",
       "category": "Social Media",
       "tags": [
         "scheduling",
@@ -1533,7 +1517,7 @@
     {
       "slug": "linktree-beacons",
       "title": "Linktree / Beacons / Stan Store",
-      "description": "Link-in-bio tools — setup, customization, analytics and selling digital products.",
+      "description": "Link-in-bio tools \u2014 setup, customization, analytics and selling digital products.",
       "category": "Social Media",
       "tags": [
         "linktree",
@@ -1628,7 +1612,7 @@
     {
       "slug": "capcut",
       "title": "CapCut",
-      "description": "Short-form video editing for TikTok, Reels and Shorts — captions, effects and templates.",
+      "description": "Short-form video editing for TikTok, Reels and Shorts \u2014 captions, effects and templates.",
       "category": "Video Editing",
       "tags": [
         "capcut",
@@ -1666,7 +1650,7 @@
     {
       "slug": "imovie",
       "title": "iMovie",
-      "description": "Beginner video editing on Mac and iOS — trim, titles, transitions, audio and export.",
+      "description": "Beginner video editing on Mac and iOS \u2014 trim, titles, transitions, audio and export.",
       "category": "Video Editing",
       "tags": [
         "imovie",
@@ -1704,7 +1688,7 @@
     {
       "slug": "kdenlive",
       "title": "Kdenlive",
-      "description": "Free open-source video editor — timeline, effects, color grading and export.",
+      "description": "Free open-source video editor \u2014 timeline, effects, color grading and export.",
       "category": "Video Editing",
       "tags": [
         "kdenlive",
@@ -1723,7 +1707,7 @@
     {
       "slug": "descript",
       "title": "Descript",
-      "description": "Edit video by editing the transcript — Overdub AI voice, captions and publishing.",
+      "description": "Edit video by editing the transcript \u2014 Overdub AI voice, captions and publishing.",
       "category": "Video Editing",
       "tags": [
         "descript",
@@ -1742,7 +1726,7 @@
     {
       "slug": "audacity",
       "title": "Audacity",
-      "description": "Free audio editor — recording, noise removal, effects, podcast cleanup and export.",
+      "description": "Free audio editor \u2014 recording, noise removal, effects, podcast cleanup and export.",
       "category": "Audio",
       "tags": [
         "audacity",
@@ -1761,7 +1745,7 @@
     {
       "slug": "adobe-audition",
       "title": "Adobe Audition",
-      "description": "Professional audio — spectral display, noise reduction, podcast mastering and multitrack.",
+      "description": "Professional audio \u2014 spectral display, noise reduction, podcast mastering and multitrack.",
       "category": "Audio",
       "tags": [
         "audition",
@@ -1875,7 +1859,7 @@
     {
       "slug": "restream",
       "title": "Restream",
-      "description": "Multistream to 30+ platforms — RTMP setup, chat aggregation and analytics.",
+      "description": "Multistream to 30+ platforms \u2014 RTMP setup, chat aggregation and analytics.",
       "category": "Streaming",
       "tags": [
         "restream",
@@ -1894,7 +1878,7 @@
     {
       "slug": "vtube-studio",
       "title": "VTube Studio",
-      "description": "Live2D VTubing — model loading, face tracking, hotkeys, physics and OBS integration.",
+      "description": "Live2D VTubing \u2014 model loading, face tracking, hotkeys, physics and OBS integration.",
       "category": "VTubing",
       "tags": [
         "vtube-studio",
@@ -1913,7 +1897,7 @@
     {
       "slug": "veadotube-mini",
       "title": "veadotube mini",
-      "description": "PNGtubing — PNG states, mic threshold, bouncing, OBS plugin and virtual camera.",
+      "description": "PNGtubing \u2014 PNG states, mic threshold, bouncing, OBS plugin and virtual camera.",
       "category": "VTubing",
       "tags": [
         "veadotube",
@@ -1932,7 +1916,7 @@
     {
       "slug": "vseeface",
       "title": "VSeeFace",
-      "description": "Free VRM avatar streaming — face tracking, hand tracking, Spout and OBS output.",
+      "description": "Free VRM avatar streaming \u2014 face tracking, hand tracking, Spout and OBS output.",
       "category": "VTubing",
       "tags": [
         "vseeface",
@@ -1951,7 +1935,7 @@
     {
       "slug": "live2d-cubism",
       "title": "Live2D Cubism Editor",
-      "description": "Create VTuber models — mesh, parameters, keyforms, physics and export to VTube Studio.",
+      "description": "Create VTuber models \u2014 mesh, parameters, keyforms, physics and export to VTube Studio.",
       "category": "VTubing",
       "tags": [
         "live2d",
@@ -1970,7 +1954,7 @@
     {
       "slug": "vroid-studio",
       "title": "VRoid Studio",
-      "description": "Free 3D VTuber model creator — face, hair, outfit customization and VRM export.",
+      "description": "Free 3D VTuber model creator \u2014 face, hair, outfit customization and VRM export.",
       "category": "VTubing",
       "tags": [
         "vroid",
@@ -1989,7 +1973,7 @@
     {
       "slug": "inochi2d",
       "title": "Inochi2D",
-      "description": "Free open-source Live2D alternative — Inochi Creator rigging and Session streaming.",
+      "description": "Free open-source Live2D alternative \u2014 Inochi Creator rigging and Session streaming.",
       "category": "VTubing",
       "tags": [
         "inochi2d",
@@ -2008,7 +1992,7 @@
     {
       "slug": "streamerbot",
       "title": "Streamer.bot / Touch Portal",
-      "description": "Stream automation — triggers, actions, chat commands, channel points and OBS control.",
+      "description": "Stream automation \u2014 triggers, actions, chat commands, channel points and OBS control.",
       "category": "Streaming",
       "tags": [
         "streamerbot",
@@ -2065,7 +2049,7 @@
     {
       "slug": "zbrush",
       "title": "ZBrush",
-      "description": "3D sculpting — core brushes, DynaMesh, ZRemesher, polypaint and export.",
+      "description": "3D sculpting \u2014 core brushes, DynaMesh, ZRemesher, polypaint and export.",
       "category": "3D & Animation",
       "tags": [
         "zbrush",
@@ -2084,7 +2068,7 @@
     {
       "slug": "spine2d",
       "title": "Spine 2D",
-      "description": "Skeletal animation for games — bones, mesh weights, IK, skins and runtime export.",
+      "description": "Skeletal animation for games \u2014 bones, mesh weights, IK, skins and runtime export.",
       "category": "3D & Animation",
       "tags": [
         "spine",
@@ -2141,7 +2125,7 @@
     {
       "slug": "penpot",
       "title": "Penpot",
-      "description": "Free open-source Figma alternative — frames, flex layout, components and CSS export.",
+      "description": "Free open-source Figma alternative \u2014 frames, flex layout, components and CSS export.",
       "category": "Design",
       "tags": [
         "penpot",
@@ -2540,7 +2524,7 @@
     {
       "slug": "pygame",
       "title": "Pygame",
-      "description": "Python game dev — surfaces, sprites, groups, collision detection and sound.",
+      "description": "Python game dev \u2014 surfaces, sprites, groups, collision detection and sound.",
       "category": "Game Development",
       "tags": [
         "pygame",
@@ -2559,7 +2543,7 @@
     {
       "slug": "defold",
       "title": "Defold",
-      "description": "Lua game engine — collections, scripts, messages, physics and mobile build.",
+      "description": "Lua game engine \u2014 collections, scripts, messages, physics and mobile build.",
       "category": "Game Development",
       "tags": [
         "defold",
@@ -2578,7 +2562,7 @@
     {
       "slug": "markdown",
       "title": "Markdown Essentials",
-      "description": "Complete syntax — headings, lists, links, code, tables, task lists and GitHub Flavored Markdown.",
+      "description": "Complete syntax \u2014 headings, lists, links, code, tables, task lists and GitHub Flavored Markdown.",
       "category": "Writing & Docs",
       "tags": [
         "markdown",
@@ -2616,7 +2600,7 @@
     {
       "slug": "confluence-jira",
       "title": "Confluence & Jira",
-      "description": "Atlassian docs and issue tracking — macros, JQL queries, sprints and shortcuts.",
+      "description": "Atlassian docs and issue tracking \u2014 macros, JQL queries, sprints and shortcuts.",
       "category": "Writing & Docs",
       "tags": [
         "confluence",
@@ -2673,7 +2657,7 @@
     {
       "slug": "affinity",
       "title": "Affinity Designer & Publisher",
-      "description": "Adobe alternative — vector design, page layout, boolean ops and print export.",
+      "description": "Adobe alternative \u2014 vector design, page layout, boolean ops and print export.",
       "category": "Design",
       "tags": [
         "affinity",
@@ -2711,7 +2695,7 @@
     {
       "slug": "woocommerce",
       "title": "WooCommerce",
-      "description": "WordPress ecommerce — products, orders, payments, shipping and key plugins.",
+      "description": "WordPress ecommerce \u2014 products, orders, payments, shipping and key plugins.",
       "category": "Ecommerce",
       "tags": [
         "woocommerce",
@@ -2825,7 +2809,7 @@
     {
       "slug": "looker-studio",
       "title": "Looker Studio",
-      "description": "Free Google dashboards — connect GA4, Sheets, BigQuery, charts and sharing.",
+      "description": "Free Google dashboards \u2014 connect GA4, Sheets, BigQuery, charts and sharing.",
       "category": "Data & Analytics",
       "tags": [
         "looker-studio",

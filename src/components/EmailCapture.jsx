@@ -9,7 +9,6 @@ export default function EmailCapture() {
     e.preventDefault()
     if (!email) return
     setStatus('loading')
-    // Buttondown endpoint — replace YOUR_LIST with your Buttondown username
     try {
       await fetch('https://buttondown.email/api/emails/embed-subscribe/olarislabs', {
         method: 'POST',
@@ -19,7 +18,7 @@ export default function EmailCapture() {
       setStatus('success')
       setEmail('')
     } catch {
-      setStatus('success') // no-cors always throws, treat as success
+      setStatus('success')
     }
   }
 
@@ -28,8 +27,8 @@ export default function EmailCapture() {
       <div className="container">
         <div className="email-card">
           <div className="email-text">
-            <h3 className="email-title">New sheets, first.</h3>
-            <p className="email-sub">Get notified when new cheat sheets drop. No spam, unsubscribe anytime.</p>
+            <h3 className="email-title">Get new sheets first.</h3>
+            <p className="email-sub">No spam, unsubscribe anytime.</p>
           </div>
           {status === 'success' ? (
             <div className="email-success">

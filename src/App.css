@@ -50,12 +50,21 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, #58a6ff 0%, #a78bfa 50%, #f778ba 100%);
-  background-size: 200% auto;
+  background: linear-gradient(135deg,
+    #58a6ff 0%,
+    #79c0ff 14%,
+    #d2a8ff 28%,
+    #ff7eb6 42%,
+    #ffa657 57%,
+    #e3b341 71%,
+    #3fb950 85%,
+    #58a6ff 100%
+  );
+  background-size: 300% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: shimmer 4s linear infinite;
+  animation: shimmer 6s linear infinite;
 }
 
 .hero-sub {

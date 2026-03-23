@@ -14,18 +14,17 @@ export default function Footer() {
           <div className="footer-col">
             <span className="col-head">Site</span>
             <Link to="/">All sheets</Link>
-            <Link to="/about">About</Link>
+            <a href="https://github.com/moonraven3085/SheetForge" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
           <div className="footer-col">
             <span className="col-head">Olaris Labs</span>
-            <a href="https://github.com/olarislabs" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://olarislabs.dev" target="_blank" rel="noopener noreferrer">olarislabs.dev</a>
             <a href="https://clayandcharm.com" target="_blank" rel="noopener noreferrer">Clay & Charm</a>
           </div>
         </div>
       </div>
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} Olaris Labs. All rights reserved.</span>
-        <span className="footer-made">Made with care in NEPA</span>
       </div>
     </footer>
   )

@@ -1,43 +1,144 @@
-.pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  white-space: nowrap;
-  font-size: 11.5px;
-  padding: 4px 10px;
-  border-radius: 100px;
-  border: 1px solid var(--border2);
-  background: var(--bg2);
-  color: var(--muted);
-  cursor: pointer;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
-  font-family: var(--font-body);
-  flex-shrink: 0;
+/* ── Prismatic keyframes ─────────────────────────────── */
+@keyframes prism-border {
+  0%   { border-color: #58a6ff; box-shadow: 0 0 0 1px #58a6ff, 0 0 14px 2px rgba(88,166,255,0.4); }
+  14%  { border-color: #79c0ff; box-shadow: 0 0 0 1px #79c0ff, 0 0 14px 2px rgba(121,192,255,0.4); }
+  28%  { border-color: #d2a8ff; box-shadow: 0 0 0 1px #d2a8ff, 0 0 14px 2px rgba(210,168,255,0.4); }
+  42%  { border-color: #ff7eb6; box-shadow: 0 0 0 1px #ff7eb6, 0 0 14px 2px rgba(255,126,182,0.4); }
+  57%  { border-color: #ffa657; box-shadow: 0 0 0 1px #ffa657, 0 0 14px 2px rgba(255,166,87,0.4); }
+  71%  { border-color: #e3b341; box-shadow: 0 0 0 1px #e3b341, 0 0 14px 2px rgba(227,179,65,0.4); }
+  85%  { border-color: #3fb950; box-shadow: 0 0 0 1px #3fb950, 0 0 14px 2px rgba(63,185,80,0.4); }
+  100% { border-color: #58a6ff; box-shadow: 0 0 0 1px #58a6ff, 0 0 14px 2px rgba(88,166,255,0.4); }
+}
+@keyframes prism-ring {
+  0%   { box-shadow: 0 0 0 1.5px #58a6ff, 0 0 10px 2px rgba(88,166,255,0.5); }
+  14%  { box-shadow: 0 0 0 1.5px #79c0ff, 0 0 10px 2px rgba(121,192,255,0.5); }
+  28%  { box-shadow: 0 0 0 1.5px #d2a8ff, 0 0 10px 2px rgba(210,168,255,0.5); }
+  42%  { box-shadow: 0 0 0 1.5px #ff7eb6, 0 0 10px 2px rgba(255,126,182,0.5); }
+  57%  { box-shadow: 0 0 0 1.5px #ffa657, 0 0 10px 2px rgba(255,166,87,0.5); }
+  71%  { box-shadow: 0 0 0 1.5px #e3b341, 0 0 10px 2px rgba(227,179,65,0.5); }
+  85%  { box-shadow: 0 0 0 1.5px #3fb950, 0 0 10px 2px rgba(63,185,80,0.5); }
+  100% { box-shadow: 0 0 0 1.5px #58a6ff, 0 0 10px 2px rgba(88,166,255,0.5); }
+}
+@keyframes prism-text {
+  0%   { color: #58a6ff; text-shadow: 0 0 8px rgba(88,166,255,0.6); }
+  14%  { color: #79c0ff; text-shadow: 0 0 8px rgba(121,192,255,0.6); }
+  28%  { color: #d2a8ff; text-shadow: 0 0 8px rgba(210,168,255,0.6); }
+  42%  { color: #ff7eb6; text-shadow: 0 0 8px rgba(255,126,182,0.6); }
+  57%  { color: #ffa657; text-shadow: 0 0 8px rgba(255,166,87,0.6); }
+  71%  { color: #e3b341; text-shadow: 0 0 8px rgba(227,179,65,0.6); }
+  85%  { color: #3fb950; text-shadow: 0 0 8px rgba(63,185,80,0.6); }
+  100% { color: #58a6ff; text-shadow: 0 0 8px rgba(88,166,255,0.6); }
+}
+@keyframes prism-icon {
+  0%   { color: #58a6ff; filter: drop-shadow(0 0 4px rgba(88,166,255,0.8)); }
+  14%  { color: #79c0ff; filter: drop-shadow(0 0 4px rgba(121,192,255,0.8)); }
+  28%  { color: #d2a8ff; filter: drop-shadow(0 0 4px rgba(210,168,255,0.8)); }
+  42%  { color: #ff7eb6; filter: drop-shadow(0 0 4px rgba(255,126,182,0.8)); }
+  57%  { color: #ffa657; filter: drop-shadow(0 0 4px rgba(255,166,87,0.8)); }
+  71%  { color: #e3b341; filter: drop-shadow(0 0 4px rgba(227,179,65,0.8)); }
+  85%  { color: #3fb950; filter: drop-shadow(0 0 4px rgba(63,185,80,0.8)); }
+  100% { color: #58a6ff; filter: drop-shadow(0 0 4px rgba(88,166,255,0.8)); }
+}
+@keyframes dl-breathe {
+  0%, 100% { filter: drop-shadow(0 0 3px var(--ac)); opacity: 0.85; }
+  50%       { filter: drop-shadow(0 0 7px var(--ac)); opacity: 1; }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.pill:hover {
-  color: var(--text);
-  border-color: var(--border);
-}
-
-.pill.active {
-  color: var(--pill-accent);
-  border-color: var(--pill-accent);
-  background: color-mix(in srgb, var(--pill-accent) 10%, transparent);
-}
-
-.pill-icon {
+/* ── Card ────────────────────────────────────────────── */
+.sheet-card {
   display: flex;
-  color: inherit;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px 6px 6px;
+  background: #161b22;
+  border: 1px solid var(--ac);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px var(--ac), 0 0 8px 1px var(--ac-glow);
+  transition: background 0.2s;
+  animation: fadeUp 0.4s ease both;
+}
+.sheet-card:hover {
+  background: #1c2128;
+  animation: fadeUp 0.4s ease both, prism-border 2s linear infinite;
+  border-color: transparent;
+  box-shadow: none;
 }
 
-.pill-count {
+/* ── Badge ring ──────────────────────────────────────── */
+.card-badge-wrap {
+  flex-shrink: 0;
+  border-radius: 8px;
+  padding: 2px;
+  box-shadow: 0 0 0 1.5px var(--ac), 0 0 8px 1px var(--ac-glow);
+}
+.sheet-card:hover .card-badge-wrap {
+  box-shadow: none;
+  animation: prism-ring 2s linear infinite;
+}
+
+/* ── Badge face ──────────────────────────────────────── */
+.card-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: var(--ac-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   font-family: var(--font-mono);
-  font-size: 10px;
-  color: var(--dim);
+  color: var(--ac);
+  position: relative;
+  overflow: hidden;
+}
+.card-badge-corner {
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 9px; height: 9px;
+  background: var(--ac);
+  opacity: 0.2;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+.sheet-card:hover .card-badge {
+  animation: prism-text 2s linear infinite;
 }
 
-.pill.active .pill-count {
-  color: var(--pill-accent);
-  opacity: 0.7;
+/* ── Sheet name — static accent + glow ──────────────── */
+.card-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--ac);
+  text-shadow: 0 0 8px var(--ac-glow);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
 }
+.sheet-card:hover .card-name {
+  animation: prism-text 2s linear infinite;
+  text-shadow: none;
+}
+
+/* ── Download icon — static glow breathe + prism hover ─ */
+.card-dl {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  color: var(--ac);
+  animation: dl-breathe 2.5s ease-in-out infinite;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+}
+.sheet-card:hover .card-dl {
+  animation: prism-icon 2s linear infinite;
+}
+.card-dl.locked { opacity: 0.5; }

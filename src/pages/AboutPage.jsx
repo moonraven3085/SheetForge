@@ -8,7 +8,7 @@ export default function AboutPage() {
       <Nav />
       <div className="container" style={{ maxWidth: 680, padding: '64px 24px 120px' }}>
         <div style={{ fontFamily:'var(--font-mono)', fontSize:11, color:'var(--dim)', letterSpacing:'0.08em', textTransform:'uppercase', marginBottom:24 }}>About</div>
-        <h1 style={{ fontFamily:'var(--font-display)', fontSize:clamp(32,48), fontWeight:800, letterSpacing:'-0.03em', marginBottom:24, lineHeight:1.1 }}>
+        <h1 style={{ fontFamily:'var(--font-display)', fontSize:"clamp(2rem, 4vw, 3rem)", fontWeight:800, letterSpacing:'-0.03em', marginBottom:24, lineHeight:1.1 }}>
           Built by one person.<br/>
           <span style={{ background:'linear-gradient(135deg,#58a6ff,#a78bfa)', WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent' }}>For every developer.</span>
         </h1>
